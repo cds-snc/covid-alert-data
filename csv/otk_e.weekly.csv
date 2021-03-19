@@ -1,0 +1,6 @@
+date,region,date_provided,count
+2021-02-21,QC-2,false,<20
+2021-02-21,QC-2,true,<20
+2021-02-21,TST,false,26976
+2021-02-21,TST,true,26976
+2021-02-28,TST,false,26976
