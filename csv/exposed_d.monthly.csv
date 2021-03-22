@@ -1,4 +1,4 @@
-date,region,is_date_provided,count
+date,region,isUserExposed,count
 2021-01-31,AB,true,<20
 2021-01-31,AB,false,<20
 2021-01-31,BC,true,<20
