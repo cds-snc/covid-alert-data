@@ -3,6 +3,7 @@
 ## Data Definitions
 
 Each metric is available aggregated daily, weekly, and monthly. This is indicated by *time_period* in the filename: *metric_name*.*time_period*.csv.
+Note: PT = Province/Territory, OS = Operating System.
 
 ### Active users
 
@@ -37,30 +38,53 @@ Each metric is available aggregated daily, weekly, and monthly. This is indicate
 
 ### New installs
 
-  * a. By date
-  * b. By date and PT
-  * c. By date, PT, and OS
-  * d. By date, OS, and app version
+| filename | aggregation |
+| ------------- |------------- |
+| new_installs_a.*time_period*.csv | by date |
+| new_installs_b.*time_period*.csv | by date and PT |
+| new_installs_c.*time_period*.csv | by date, PT, and OS |
+| new_installs_d.*time_period*.csv | by date, OS, and app version |
+
 
 ### Onboarding progress
-  * a. By date and OS
-  * b. By date, OS, and app version
-  * c. By date and stage [push notifications enabled, GAEN framework enabled]
+
+| filename | aggregation |
+| ------------- |------------- |
+| onboarded_a.*time_period*.csv | by date and OS |
+| onboarded_b.*time_period*.csv | by date, OS, and app version |
+| onboarded_c.*time_period*.csv | by date and stage [push notifications enabled, GAEN framework enabled] |
+
 
 ### App turned off and on
-  * a. By date and state [app turned off vs. app turned on]
-  * b. By date and time duration [<1 hour, 2-3 hours, etc.]
+
+| filename | aggregation |
+| ------------- |------------- |
+| on_off_a.*time_period*.csv | by date and action [turn app off vs. turn app on] |
+| Not yet available | by date and time duration [<1 hour, 2-3 hours, etc.] |
+
 
 ### Manually clearing exposure notifications
-  * a. By date
-  * b. By date and time duration [<1 hour, 2-3 hours, etc.]
-  * c. By date, PT, and OS
+
+| filename | aggregation |
+| ------------- |------------- |
+| clear_exposed_a.*time_period*.csv | by date |
+| Not yet available | by date and time duration [<1 hour, 2-3 hours, etc.] |
+| Not yet available | by date, PT, and OS |
+
 
 ### Number of background checks
-  * a. By date and background checks bucket [1-3 per day, 4-6 per day, etc.]
-  * b. By date, OS, app version, and background checks bucket
-  * c. By date, OS, app version, and success/fail
+
+| filename | aggregation |
+| ------------- |------------- |
+| background_checks_a.*time_period*.csv | by date and background checks bucket [1-3 per day, 4-6 per day, etc.]|
+| Not yet available | by date, OS, app version, and background checks bucket |
+| Not yet available | by date, OS, app version, and success/fail |
+
 
 ### OTKs generated (server-side data)
-  * a. By date and by state [generated vs. claimed]
-  * b. By date, PT, and state
+
+| filename | aggregation |
+| ------------- |------------- |
+| Not yet available | by date and by state [generated vs. claimed] |
+| Not yet available | by date, PT, and state |
+
