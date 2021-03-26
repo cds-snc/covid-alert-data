@@ -1,0 +1,17 @@
+date,frameworkenabled,pushnotification,count
+2021-02-28,true,granted,<20
+2021-02-28,true,blocked,<20
+2021-02-28,false,granted,<20
+2021-02-28,false,blocked,<20
+2021-03-07,true,granted,<20
+2021-03-07,true,blocked,<20
+2021-03-07,false,granted,<20
+2021-03-07,false,blocked,<20
+2021-03-14,true,granted,<20
+2021-03-14,true,blocked,<20
+2021-03-14,false,granted,<20
+2021-03-14,false,blocked,<20
+2021-03-21,true,granted,<20
+2021-03-21,true,blocked,<20
+2021-03-21,false,granted,<20
+2021-03-21,false,blocked,<20

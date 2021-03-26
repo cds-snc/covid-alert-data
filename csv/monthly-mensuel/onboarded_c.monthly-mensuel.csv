@@ -1,0 +1,5 @@
+date,frameworkenabled,pushnotification,count
+2021-02-28,true,granted,<20
+2021-02-28,true,blocked,<20
+2021-02-28,false,granted,<20
+2021-02-28,false,blocked,<20
