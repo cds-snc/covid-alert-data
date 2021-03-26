@@ -5,7 +5,9 @@
 Each metric is available aggregated daily, weekly, and monthly. This is indicated by *time_period* in the filename: *metric_name*.*time_period*.csv.
 Note: PT = Province/Territory, OS = Operating System.
 
-### Active users
+### Daily active users
+
+For these files, *daily-journalier* have totals for the day, while *weekly-hebdomadaire* and *monthly-mensuel* contain averages for the week/month.
 
 | filename | aggregation |
 | ------------- |------------- |
