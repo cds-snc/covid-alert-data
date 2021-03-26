@@ -7,7 +7,7 @@ date,region,is_date_provided,count
 2021-02-28,MB,false,<20
 2021-02-28,NB,true,<20
 2021-02-28,NB,false,<20
-2021-02-28,NL,true,34
+2021-02-28,NL,true,<20
 2021-02-28,NL,false,<20
 2021-02-28,NT,true,<20
 2021-02-28,NT,false,<20
@@ -15,14 +15,14 @@ date,region,is_date_provided,count
 2021-02-28,NS,false,<20
 2021-02-28,NU,true,<20
 2021-02-28,NU,false,<20
-2021-02-28,ON,true,36
-2021-02-28,ON,false,166
+2021-02-28,ON,true,<20
+2021-02-28,ON,false,<20
 2021-02-28,PE,true,<20
 2021-02-28,PE,false,<20
 2021-02-28,QC,true,<20
 2021-02-28,QC,false,<20
 2021-02-28,SK,true,<20
-2021-02-28,SK,false,45
+2021-02-28,SK,false,<20
 2021-02-28,YT,true,<20
 2021-02-28,YT,false,<20
 2021-02-28,NPTS,true,<20
