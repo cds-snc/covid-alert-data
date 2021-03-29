@@ -99,7 +99,7 @@ date,region,appos,count
 2021-03-21,NS,ios,<20
 2021-03-21,NU,android,<20
 2021-03-21,NU,ios,<20
-2021-03-21,ON,android,422
+2021-03-21,ON,android,423
 2021-03-21,ON,ios,820
 2021-03-21,PE,android,<20
 2021-03-21,PE,ios,<20
@@ -115,7 +115,7 @@ date,region,appos,count
 2021-03-28,AB,ios,<20
 2021-03-28,BC,android,<20
 2021-03-28,BC,ios,<20
-2021-03-28,MB,android,22
+2021-03-28,MB,android,23
 2021-03-28,MB,ios,28
 2021-03-28,NB,android,<20
 2021-03-28,NB,ios,<20
@@ -127,11 +127,11 @@ date,region,appos,count
 2021-03-28,NS,ios,<20
 2021-03-28,NU,android,<20
 2021-03-28,NU,ios,<20
-2021-03-28,ON,android,515
-2021-03-28,ON,ios,984
+2021-03-28,ON,android,524
+2021-03-28,ON,ios,985
 2021-03-28,PE,android,<20
 2021-03-28,PE,ios,<20
-2021-03-28,QC,android,67
+2021-03-28,QC,android,70
 2021-03-28,QC,ios,116
 2021-03-28,SK,android,30
 2021-03-28,SK,ios,84

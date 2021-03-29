@@ -884,7 +884,7 @@ date,region,isUserExposed,count
 2021-03-27,NU,true,<20
 2021-03-27,NU,false,<20
 2021-03-27,ON,true,<20
-2021-03-27,ON,false,<20
+2021-03-27,ON,false,135
 2021-03-27,PE,true,<20
 2021-03-27,PE,false,<20
 2021-03-27,QC,true,<20
@@ -911,14 +911,14 @@ date,region,isUserExposed,count
 2021-03-28,NS,false,<20
 2021-03-28,NU,true,<20
 2021-03-28,NU,false,<20
-2021-03-28,ON,true,<20
-2021-03-28,ON,false,<20
+2021-03-28,ON,true,27
+2021-03-28,ON,false,277
 2021-03-28,PE,true,<20
 2021-03-28,PE,false,<20
 2021-03-28,QC,true,<20
-2021-03-28,QC,false,<20
+2021-03-28,QC,false,23
 2021-03-28,SK,true,<20
-2021-03-28,SK,false,<20
+2021-03-28,SK,false,30
 2021-03-28,YT,true,<20
 2021-03-28,YT,false,<20
 2021-03-28,NPTS,true,<20
