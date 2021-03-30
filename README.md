@@ -13,6 +13,7 @@ For these files, *daily-journalier* have totals for the day, while *weekly-hebdo
 | ------------- |------------- |
 | active_users.*time_period*.csv | by date |
 | active_users_pt.*time_period*.csv | by date and PT |
+| active_users_os.*time_period*.csv | by date and OS |
 | active_users_pt_os.*time_period*.csv | by date, PT, and OS |
 | active_users_os_av.*time_period*.csv | by date, OS, and app version |
 
