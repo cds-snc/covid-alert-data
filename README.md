@@ -55,7 +55,7 @@ For these files, *daily-journalier* have totals for the day, while *weekly-hebdo
 | ------------- |------------- |
 | onboarded_os.*time_period*.csv | by date and OS |
 | onboarded_os_av.*time_period*.csv | by date, OS, and app version |
-| onboarded_fe_pn.*time_period*.csv | by date, GAEN framework enabled, and if push notifications are enabled |
+| onboarded_fe_np.*time_period*.csv | by date, GAEN framework enabled, and if notifications permission is granted |
 
 
 ### App turned off and on
