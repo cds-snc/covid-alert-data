@@ -79,8 +79,9 @@ For these files, *daily-journalier* have totals for the day, while *weekly-hebdo
 
 | filename | aggregation |
 | ------------- |------------- |
-| background_checks_nc.*time_period*.csv | by date and background checks bucket [1-3 per day, 4-6 per day, etc.]|
-| Not yet available | by date, OS, app version, and background checks bucket |
+| background_checks_nc.*time_period*.csv | by date and number of background checks [1-3 per day, 4-6 per day, etc.]|
+| background_checks_nc_os.*time_period*.csv | by date, number of checks, and OS |
+| background_checks_nc_os_av.*time_period*.csv | by date, number of checks, OS, and app version |
 | Not yet available | by date, OS, app version, and success/fail |
 
 
