@@ -15,14 +15,14 @@ date,region,date_provided,count
 2021-03-31,NS,no_date,<20
 2021-03-31,NU,date,<20
 2021-03-31,NU,no_date,<20
-2021-03-31,ON,date,437
-2021-03-31,ON,no_date,1154
+2021-03-31,ON,date,438
+2021-03-31,ON,no_date,1155
 2021-03-31,PE,date,<20
 2021-03-31,PE,no_date,<20
 2021-03-31,QC,date,37
 2021-03-31,QC,no_date,111
 2021-03-31,SK,date,68
-2021-03-31,SK,no_date,111
+2021-03-31,SK,no_date,112
 2021-03-31,YT,date,<20
 2021-03-31,YT,no_date,<20
 2021-03-31,NPTS,date,20

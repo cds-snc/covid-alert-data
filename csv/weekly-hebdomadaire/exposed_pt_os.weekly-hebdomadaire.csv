@@ -72,7 +72,7 @@ date,region,appos,count
 2021-03-14,NU,android,<20
 2021-03-14,NU,ios,<20
 2021-03-14,ON,android,359
-2021-03-14,ON,ios,725
+2021-03-14,ON,ios,726
 2021-03-14,PE,android,<20
 2021-03-14,PE,ios,<20
 2021-03-14,QC,android,53
@@ -131,7 +131,7 @@ date,region,appos,count
 2021-03-28,ON,ios,986
 2021-03-28,PE,android,<20
 2021-03-28,PE,ios,<20
-2021-03-28,QC,android,72
+2021-03-28,QC,android,73
 2021-03-28,QC,ios,116
 2021-03-28,SK,android,30
 2021-03-28,SK,ios,84
