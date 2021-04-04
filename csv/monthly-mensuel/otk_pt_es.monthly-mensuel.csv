@@ -16,7 +16,7 @@ date,region,exposure_status,count
 2021-03-31,NU,exposed,<20
 2021-03-31,NU,monitoring,<20
 2021-03-31,ON,exposed,147
-2021-03-31,ON,monitoring,1446
+2021-03-31,ON,monitoring,1448
 2021-03-31,PE,exposed,<20
 2021-03-31,PE,monitoring,<20
 2021-03-31,QC,exposed,<20
@@ -26,4 +26,4 @@ date,region,exposure_status,count
 2021-03-31,YT,exposed,<20
 2021-03-31,YT,monitoring,<20
 2021-03-31,NPTS,exposed,<20
-2021-03-31,NPTS,monitoring,45
+2021-03-31,NPTS,monitoring,46
