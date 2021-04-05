@@ -25,8 +25,8 @@ date,region,appos,count
 2021-02-28,SK,ios,<20
 2021-02-28,YT,android,<20
 2021-02-28,YT,ios,<20
-2021-02-28,NPTS,android,11984
-2021-02-28,NPTS,ios,19122
+2021-02-28,NPTS,android,11985
+2021-02-28,NPTS,ios,19124
 2021-03-31,AB,android,22
 2021-03-31,AB,ios,<20
 2021-03-31,BC,android,<20
@@ -53,5 +53,5 @@ date,region,appos,count
 2021-03-31,SK,ios,<20
 2021-03-31,YT,android,<20
 2021-03-31,YT,ios,<20
-2021-03-31,NPTS,android,86748
-2021-03-31,NPTS,ios,129027
+2021-03-31,NPTS,android,86776
+2021-03-31,NPTS,ios,129034
