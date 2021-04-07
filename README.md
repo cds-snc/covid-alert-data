@@ -4,7 +4,7 @@ The data in this repository is updated daily.
 
 ## Quick Links
 
-Below are some of the data files that give give trends for all users of the app. All of these are summed daily, and dates are in the format YYYY-MM-DD.
+Below are links to some of the high-level metrics for all users of the app. All of these are summed daily, and dates are in the format YYYY-MM-DD.
 
 - [Daily Active Users](csv/daily-journalier/active_users.daily-journalier.csv)
 - [Exposure Notifications Recieved](csv/daily-journalier/exposed.daily-journalier.csv)
