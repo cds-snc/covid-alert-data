@@ -54,11 +54,12 @@ For these files, *daily-journalier* have totals for the day, while *weekly-hebdo
 
 ### New installs
 
+Province/Territory aggregation is not provided for this metric, since it is unknown at the time the app is installed.
+
 | filename | aggregation |
 | ------------- |------------- |
 | installs.*time_period*.csv | by date |
-| installs_pt.*time_period*.csv | by date and PT |
-| installs_pt_os.*time_period*.csv | by date, PT, and OS |
+| installs_os.*time_period*.csv | by date and OS |
 | installs_os_av.*time_period*.csv | by date, OS, and app version |
 
 
