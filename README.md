@@ -103,6 +103,13 @@ Province/Territory aggregation is not provided for this metric, since it is unkn
 
 | filename | aggregation |
 | ------------- |------------- |
-| Not yet available | by date and by state [generated vs. claimed] |
-| Not yet available | by date, PT, and state |
+| server_otk_generated.*time_period*.csv | by date |
+| server_otk_generated_pt.*time_period*.csv | by date and PT |
 
+
+### OTKs claimed (server-side data)
+
+| filename | aggregation |
+| ------------- |------------- |
+| server_otk_claimed.*time_period*.csv | by date |
+| server_otk_claimed_pt.*time_period*.csv | by date and PT |
