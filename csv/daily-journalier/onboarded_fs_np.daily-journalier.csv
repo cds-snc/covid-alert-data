@@ -293,3 +293,9 @@ date,framework_status,notification_permission,count
 2021-04-13,disabled,granted,<20
 2021-04-13,disabled,denied,<20
 2021-04-13,disabled,blocked,<20
+2021-04-14,enabled,granted,<20
+2021-04-14,enabled,denied,<20
+2021-04-14,enabled,blocked,<20
+2021-04-14,disabled,granted,<20
+2021-04-14,disabled,denied,<20
+2021-04-14,disabled,blocked,<20
