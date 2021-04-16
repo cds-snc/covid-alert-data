@@ -16,7 +16,7 @@ There are many more files in this repository, broken down by Province/Territory,
 ## Data Definitions
 
 Each metric is available aggregated daily, weekly, and monthly. This is indicated by *time_period* in the filename: *metric_name*.*time_period*.csv.
-Note: PT = Province/Territory, OS = Operating System.
+Note: PT = Province/Territory, OS = Operating System. All dates are in UTC.
 
 ### Daily active users
 
