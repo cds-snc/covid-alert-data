@@ -113,3 +113,13 @@ Province/Territory aggregation is not provided for this metric, since it is unkn
 | ------------- |------------- |
 | server_otk_claimed.*time_period*.csv | by date |
 | server_otk_claimed_pt.*time_period*.csv | by date and PT |
+
+
+### Downloads
+
+| filename | aggregation |
+| ------------- |------------- |
+| downloads.*time_period*.csv | by date |
+| downloads_os.*time_period*.csv | by date and OS |
+| cumulative_downloads.*time_period*.csv | by date |
+| cumulative_downloads_os.*time_period*.csv | by date and OS |
