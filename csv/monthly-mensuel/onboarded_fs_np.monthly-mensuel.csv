@@ -1,13 +1,13 @@
 date,framework_status,notification_permission,count
-2021-02-28,enabled,denied,<20
 2021-02-28,enabled,granted,15349
+2021-02-28,enabled,denied,<20
 2021-02-28,enabled,blocked,345
-2021-02-28,disabled,denied,<20
 2021-02-28,disabled,granted,6184
+2021-02-28,disabled,denied,<20
 2021-02-28,disabled,blocked,248
-2021-03-31,enabled,denied,76
 2021-03-31,enabled,granted,123417
+2021-03-31,enabled,denied,76
 2021-03-31,enabled,blocked,2658
-2021-03-31,disabled,denied,38
 2021-03-31,disabled,granted,25673
+2021-03-31,disabled,denied,38
 2021-03-31,disabled,blocked,2632
