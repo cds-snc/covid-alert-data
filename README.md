@@ -31,6 +31,15 @@ For these files, *daily-journalier* have totals for the day, while *weekly-hebdo
 | active_users_os_av.*time_period*.csv | by date, OS, and app version |
 
 
+### All users
+
+This metric is currently Android only. It includes all devices that are recieving updates, including those where background checks are not being performed successfully. For these files, *daily-journalier* have totals for the day, while *weekly-hebdomadaire* and *monthly-mensuel* contain averages for the week/month. 
+
+| filename | aggregation |
+| ------------- |------------- |
+| all_users_os.*time_period*.csv | by date and OS |
+
+
 ### Exposure notifications received
 
 | filename | aggregation |
