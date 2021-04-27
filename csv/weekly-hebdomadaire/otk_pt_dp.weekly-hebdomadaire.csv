@@ -43,7 +43,7 @@ date,region,date_provided,count
 2021-04-11,NS,no_date,<20
 2021-04-11,NU,date,<20
 2021-04-11,NU,no_date,<20
-2021-04-11,ON,date,721
+2021-04-11,ON,date,722
 2021-04-11,ON,no_date,304
 2021-04-11,PE,date,<20
 2021-04-11,PE,no_date,<20
@@ -71,7 +71,7 @@ date,region,date_provided,count
 2021-04-18,NS,no_date,<20
 2021-04-18,NU,date,<20
 2021-04-18,NU,no_date,<20
-2021-04-18,ON,date,1166
+2021-04-18,ON,date,1167
 2021-04-18,ON,no_date,86
 2021-04-18,PE,date,<20
 2021-04-18,PE,no_date,<20
@@ -99,8 +99,8 @@ date,region,date_provided,count
 2021-04-25,NS,no_date,<20
 2021-04-25,NU,date,<20
 2021-04-25,NU,no_date,<20
-2021-04-25,ON,date,871
-2021-04-25,ON,no_date,67
+2021-04-25,ON,date,881
+2021-04-25,ON,no_date,69
 2021-04-25,PE,date,<20
 2021-04-25,PE,no_date,<20
 2021-04-25,QC,date,48
