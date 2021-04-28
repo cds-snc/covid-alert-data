@@ -58,7 +58,7 @@ This metric is currently Android only. It includes all devices that are recievin
 | otk.*time_period*.csv | by date |
 | otk_pt.*time_period*.csv | by date and PT |
 | otk_pt_os.*time_period*.csv | by date, PT, and OS |
-| otk_os_es.*time_period*.csv | by date, OS, and exposure status prior to entering OTK |
+| otk_es.*time_period*.csv | by date and exposure status prior to entering OTK |
 | otk_pt_dp.*time_period*.csv | by date, PT, and test/symptom date provided [with date vs. without date] |
 
 
