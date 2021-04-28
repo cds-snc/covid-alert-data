@@ -6,6 +6,7 @@ The data in this repository is updated daily.
 
 Below are links to some of the high-level metrics for all users of the app. All of these are summed daily, and dates are in the format YYYY-MM-DD.
 
+- [Cumulative App Store Downloads](csv/daily-journalier/cumulative_downloads_os.daily-journalier.csv)
 - [Daily Active Users](csv/daily-journalier/active_users.daily-journalier.csv)
 - [Exposure Notifications Recieved](csv/daily-journalier/exposed.daily-journalier.csv)
 - [One Time Keys Entered](csv/daily-journalier/otk.daily-journalier.csv)
