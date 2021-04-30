@@ -49,7 +49,7 @@ date,region,date_provided,count
 2021-04-11,PE,no_date,<20
 2021-04-11,QC,date,38
 2021-04-11,QC,no_date,36
-2021-04-11,SK,date,32
+2021-04-11,SK,date,33
 2021-04-11,SK,no_date,<20
 2021-04-11,YT,date,<20
 2021-04-11,YT,no_date,<20
@@ -99,7 +99,7 @@ date,region,date_provided,count
 2021-04-25,NS,no_date,<20
 2021-04-25,NU,date,<20
 2021-04-25,NU,no_date,<20
-2021-04-25,ON,date,885
+2021-04-25,ON,date,886
 2021-04-25,ON,no_date,69
 2021-04-25,PE,date,<20
 2021-04-25,PE,no_date,<20
