@@ -22,6 +22,7 @@ Note: PT = Province/Territory, OS = Operating System. All dates are in UTC.
 ### Daily active users
 
 For these files, *daily-journalier* have totals for the day, while *weekly-hebdomadaire* and *monthly-mensuel* contain averages for the week/month.
+Active users are defined as those with devices that have performed a background check in the given time period. There are many reasons why a phone with an installed app wouldn't have performed a background check, such as lack of data connectivity. Phones that are not performing background checks can still exchange keys with other phones they've been in contact with.
 
 | filename | aggregation |
 | ------------- |------------- |
