@@ -35,7 +35,7 @@ date,region,exposure_status,count
 2021-04-30,MB,monitoring,288
 2021-04-30,NB,exposed,<20
 2021-04-30,NB,monitoring,<20
-2021-04-30,NL,exposed,89
+2021-04-30,NL,exposed,92
 2021-04-30,NL,monitoring,30
 2021-04-30,NT,exposed,<20
 2021-04-30,NT,monitoring,<20
@@ -43,8 +43,8 @@ date,region,exposure_status,count
 2021-04-30,NS,monitoring,139
 2021-04-30,NU,exposed,<20
 2021-04-30,NU,monitoring,<20
-2021-04-30,ON,exposed,20215
-2021-04-30,ON,monitoring,4883
+2021-04-30,ON,exposed,20224
+2021-04-30,ON,monitoring,4885
 2021-04-30,PE,exposed,<20
 2021-04-30,PE,monitoring,<20
 2021-04-30,QC,exposed,1574

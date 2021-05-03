@@ -63,7 +63,7 @@ date,region,appos,count
 2021-04-30,MB,ios,915
 2021-04-30,NB,android,26
 2021-04-30,NB,ios,<20
-2021-04-30,NL,android,20
+2021-04-30,NL,android,23
 2021-04-30,NL,ios,103
 2021-04-30,NT,android,<20
 2021-04-30,NT,ios,<20
@@ -71,7 +71,7 @@ date,region,appos,count
 2021-04-30,NS,ios,362
 2021-04-30,NU,android,<20
 2021-04-30,NU,ios,<20
-2021-04-30,ON,android,8563
+2021-04-30,ON,android,8574
 2021-04-30,ON,ios,19793
 2021-04-30,PE,android,<20
 2021-04-30,PE,ios,<20
