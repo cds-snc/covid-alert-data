@@ -44,7 +44,7 @@ date,exposure_status,count
 2021-04-18,exposed,1249
 2021-04-18,monitoring,284
 2021-04-19,exposed,1122
-2021-04-19,monitoring,269
+2021-04-19,monitoring,270
 2021-04-20,exposed,971
 2021-04-20,monitoring,261
 2021-04-21,exposed,1126
@@ -75,9 +75,11 @@ date,exposure_status,count
 2021-05-03,monitoring,202
 2021-05-04,exposed,983
 2021-05-04,monitoring,158
-2021-05-05,exposed,913
-2021-05-05,monitoring,172
+2021-05-05,exposed,919
+2021-05-05,monitoring,174
 2021-05-06,exposed,918
 2021-05-06,monitoring,162
-2021-05-07,exposed,929
-2021-05-07,monitoring,177
+2021-05-07,exposed,981
+2021-05-07,monitoring,194
+2021-05-08,exposed,879
+2021-05-08,monitoring,169
