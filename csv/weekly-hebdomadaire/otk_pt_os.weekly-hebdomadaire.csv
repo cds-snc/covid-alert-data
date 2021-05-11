@@ -171,7 +171,7 @@ date,region,appos,count
 2021-05-09,AB,ios,<20
 2021-05-09,BC,android,<20
 2021-05-09,BC,ios,<20
-2021-05-09,MB,android,27
+2021-05-09,MB,android,30
 2021-05-09,MB,ios,48
 2021-05-09,NB,android,<20
 2021-05-09,NB,ios,<20
@@ -183,8 +183,8 @@ date,region,appos,count
 2021-05-09,NS,ios,<20
 2021-05-09,NU,android,<20
 2021-05-09,NU,ios,<20
-2021-05-09,ON,android,212
-2021-05-09,ON,ios,399
+2021-05-09,ON,android,225
+2021-05-09,ON,ios,400
 2021-05-09,PE,android,<20
 2021-05-09,PE,ios,<20
 2021-05-09,QC,android,<20

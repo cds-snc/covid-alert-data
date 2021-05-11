@@ -171,7 +171,7 @@ date,region,date_provided,count
 2021-05-09,AB,no_date,<20
 2021-05-09,BC,date,<20
 2021-05-09,BC,no_date,<20
-2021-05-09,MB,date,70
+2021-05-09,MB,date,73
 2021-05-09,MB,no_date,<20
 2021-05-09,NB,date,<20
 2021-05-09,NB,no_date,<20
@@ -183,13 +183,13 @@ date,region,date_provided,count
 2021-05-09,NS,no_date,<20
 2021-05-09,NU,date,<20
 2021-05-09,NU,no_date,<20
-2021-05-09,ON,date,575
-2021-05-09,ON,no_date,36
+2021-05-09,ON,date,588
+2021-05-09,ON,no_date,37
 2021-05-09,PE,date,<20
 2021-05-09,PE,no_date,<20
-2021-05-09,QC,date,25
+2021-05-09,QC,date,27
 2021-05-09,QC,no_date,<20
-2021-05-09,SK,date,47
+2021-05-09,SK,date,49
 2021-05-09,SK,no_date,<20
 2021-05-09,YT,date,<20
 2021-05-09,YT,no_date,<20
