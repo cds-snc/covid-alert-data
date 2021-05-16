@@ -71,7 +71,7 @@ date,region,date_provided,count
 2021-04-11,NS,no_date,<20
 2021-04-11,NU,date,<20
 2021-04-11,NU,no_date,<20
-2021-04-11,ON,date,725
+2021-04-11,ON,date,726
 2021-04-11,ON,no_date,304
 2021-04-11,PE,date,<20
 2021-04-11,PE,no_date,<20
@@ -171,7 +171,7 @@ date,region,date_provided,count
 2021-05-09,AB,no_date,<20
 2021-05-09,BC,date,<20
 2021-05-09,BC,no_date,<20
-2021-05-09,MB,date,73
+2021-05-09,MB,date,74
 2021-05-09,MB,no_date,<20
 2021-05-09,NB,date,<20
 2021-05-09,NB,no_date,<20

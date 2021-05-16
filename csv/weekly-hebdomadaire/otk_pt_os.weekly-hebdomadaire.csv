@@ -71,7 +71,7 @@ date,region,appos,count
 2021-04-11,NS,ios,<20
 2021-04-11,NU,android,<20
 2021-04-11,NU,ios,<20
-2021-04-11,ON,android,369
+2021-04-11,ON,android,370
 2021-04-11,ON,ios,660
 2021-04-11,PE,android,<20
 2021-04-11,PE,ios,<20
@@ -171,7 +171,7 @@ date,region,appos,count
 2021-05-09,AB,ios,<20
 2021-05-09,BC,android,<20
 2021-05-09,BC,ios,<20
-2021-05-09,MB,android,30
+2021-05-09,MB,android,31
 2021-05-09,MB,ios,48
 2021-05-09,NB,android,<20
 2021-05-09,NB,ios,<20
