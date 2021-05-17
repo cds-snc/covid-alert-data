@@ -1,21 +1,13 @@
-MIT License
+[La version française suit.](#licence)
 
-Copyright (c) 2021 Canadian Digital Service – Service numérique canadien
+# License
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+© 2021 Government of Canada
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Data in this repository is dual-licensed under the [Open Government License](https://open.canada.ca/en/open-government-licence-canada) and the [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/).
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+# Licence
+
+© 2021 Gouvernement du Canada
+
+Les données dans ce dépôt font l’objet d’une double licence en vertu de la [licence du gouvernement ouvert](https://ouvert.canada.ca/fr/licence-du-gouvernement-ouvert-canada) et de la [licence d’attribution de Creative Commons](https://creativecommons.org/licenses/by/4.0/deed.fr).
