@@ -32,15 +32,6 @@ For these files, *daily-journalier* have totals for the day, while *weekly-hebdo
 | active_users_os_av.*time_period*.csv | by date, OS, and app version |
 
 
-### All users
-
-This metric is currently Android only. It includes all devices that are recieving updates, including those where background checks are not being performed successfully. For these files, *daily-journalier* have totals for the day, while *weekly-hebdomadaire* and *monthly-mensuel* contain averages for the week/month. 
-
-| filename | aggregation |
-| ------------- |------------- |
-| all_users_os.*time_period*.csv | by date and OS |
-
-
 ### Exposure notifications received
 
 | filename | aggregation |
@@ -97,6 +88,16 @@ Province/Territory aggregation is not provided for this metric, since it is unkn
 | clear_exposed.*time_period*.csv | by date |
 | Not yet available | by date and time duration [<1 hour, 2-3 hours, etc.] |
 | Not yet available | by date, PT, and OS |
+
+
+### Daily background checks
+
+These metrics are currently Android only. *daily_background_check_started* counts all devices that start the app's background task at least once in a given day. *daily_background_check_successfully_completed_os* counts all devices that successfully performed an exposure check in the background at least once during the day. For these files, *daily-journalier* have totals for the day, while *weekly-hebdomadaire* and *monthly-mensuel* contain averages for the week/month. 
+
+| filename | aggregation |
+| ------------- |------------- |
+| daily_background_check_started_os.*time_period*.csv | by date and OS |
+| daily_background_check_successfully_completed_os.*time_period*.csv | by date and OS |
 
 
 ### Number of background checks
