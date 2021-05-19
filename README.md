@@ -86,7 +86,7 @@ Province/Territory aggregation is not provided for this metric, since it is unkn
 
 | filename | aggregation |
 | ------------- |------------- |
-| on_off_ac.*time_period*.csv | by date and action [turn app off vs. turn app on] |
+| Not yet available | by date and action [turn app off vs. turn app on] |
 | Not yet available | by date and time duration [<1 hour, 2-3 hours, etc.] |
 
 
