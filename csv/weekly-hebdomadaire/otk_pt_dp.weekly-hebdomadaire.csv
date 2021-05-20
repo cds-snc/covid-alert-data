@@ -199,7 +199,7 @@ date,region,date_provided,count
 2021-05-16,AB,no_date,<20
 2021-05-16,BC,date,<20
 2021-05-16,BC,no_date,<20
-2021-05-16,MB,date,103
+2021-05-16,MB,date,104
 2021-05-16,MB,no_date,<20
 2021-05-16,NB,date,<20
 2021-05-16,NB,no_date,<20
@@ -217,7 +217,7 @@ date,region,date_provided,count
 2021-05-16,PE,no_date,<20
 2021-05-16,QC,date,<20
 2021-05-16,QC,no_date,<20
-2021-05-16,SK,date,54
+2021-05-16,SK,date,55
 2021-05-16,SK,no_date,<20
 2021-05-16,YT,date,<20
 2021-05-16,YT,no_date,<20
