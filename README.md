@@ -1,27 +1,85 @@
 # covid-alert-data
 
-The data in this repository is updated daily.
+The COVID Alert Data repository contains aggregated metrics reported by
+the COVID alert system as a whole. The repository is updated nightly with
+data which was received the previous day.
+
+This metric data can be used to give insights into how the app is
+performing, the progression of OTK distribution and various other
+questions. For all metrics reported, for any value < 20 we have replaced
+the actual value with the text '<20'.
+
+Note: Due to the privacy settings in the app, in-app metrics don't
+necessarily cover all of the phones running the application. The privacy
+guarantees mean we don't know if all phones are reporting in, or even
+what all phones means. The CSV files should be considered a sampling of
+the population of users who's devices have reported back metrics, a lower
+bound of the total for each in-app metric.
+
+The values in older files may also increase over time. This can happen
+when a phone has had data turned off for a period of days. When it comes
+back online it will send metrics to the server, causing the historic values
+to increase.
+
+There are three sources of information coming into this repository. The
+download numbers from the App Stores, the in-app metrics reported by
+the iOS and Android applications and the metrics reported by the
+Healthcare portal. As the in-app data does not contain a complete
+representation of phones, comparing in-app metrics with Healthcare
+Portal data or App Store data should be avoided. In most cases, the
+in-app metrics will be lower then the corresponding metric for other
+sources.
+
+The metrics are reported over three time period. Daily, Weekly and
+Monthly. Note that those time periods can overlap, the Monthly data can
+contain days from the previous months last week. Combining numbers
+from two time frames will lead to double counting.
+
+In-app metrics were added to the applications around March 28, 2021.
+Prior to that time there were no in-app numbers reported.  There have
+been subsequent releases to the apps which added new metrics.
+Some metrics will have shorter periods of time for which they have data.
+
 
 ## Quick Links
 
-Below are links to some of the high-level metrics for all users of the app. All of these are summed daily, and dates are in the format YYYY-MM-DD.
+Below are links to some of the high-level metrics for all users of the
+app. All of these are summed daily, and dates are in the format YYYY-MM-DD.
 
 - [Cumulative App Store Downloads](csv/daily-journalier/cumulative_downloads_os.daily-journalier.csv)
 - [Daily Active Users](csv/daily-journalier/active_users.daily-journalier.csv)
-- [Exposure Notifications Recieved](csv/daily-journalier/exposed.daily-journalier.csv)
+- [Exposure Notifications Received](csv/daily-journalier/exposed.daily-journalier.csv)
 - [One Time Keys Entered](csv/daily-journalier/otk.daily-journalier.csv)
 - [New Installs](csv/daily-journalier/installs.daily-journalier.csv)
 
-There are many more files in this repository, broken down by Province/Territory, Operating System, App Version, and other variables. The full list is provided in the next section.
+There are many more files in this repository, broken down by
+Province/Territory, Operating System, App Version, and other variables.
+The full list is provided in the next section.
 
 ## Data Definitions
 
-Each metric is available aggregated daily, weekly, and monthly. This is indicated by *time_period* in the filename: *metric_name*.*time_period*.csv.
-Note: PT = Province/Territory, OS = Operating System. All dates are in UTC.
+Each metric is available aggregated daily, weekly, and monthly. This is
+indicated by *time_period* in the filename: *metric_name*.*time_period*.csv.
+All dates are UTC.
 
-### Daily active users
+Legend:
+ * PT = Province/Territory
+ * OS = Operating System.
+ * NC = Number of Checks
+ * ES = Exposure Status
+ * FS = Framework Status
+ * DP = Date provided
+ * NP = Notification Permission
 
-For these files, *daily-journalier* have totals for the day, while *weekly-hebdomadaire* and *monthly-mensuel* contain averages for the week/month.
+### Active users
+
+For these files, [daily-journalier](csv/daily-journalier) has totals for
+the day, while [weekly-hebdomadaire](csv/weekly-hebdomadaire) and
+[monthly-mensuel](csv/monthly-mensuel) contain averages for the
+week/month.
+
+The active users metric is recorded for phones which have attempted to
+do an exposure check. It is recorded once per UTC day.
 
 | filename | aggregation |
 | ------------- |------------- |
@@ -39,7 +97,7 @@ For these files, *daily-journalier* have totals for the day, while *weekly-hebdo
 | exposed.*time_period*.csv | by date |
 | exposed_pt.*time_period*.csv | by date and PT |
 | exposed_pt_os.*time_period*.csv | by date, PT, and OS |
-| exposed_pt_es.*time_period*.csv | by date, PT, and exposure status prior to recieving notification |
+| exposed_pt_es.*time_period*.csv | by date, PT, and exposure status prior to receiving notification |
 
 
 ### OTKs entered
@@ -55,7 +113,8 @@ For these files, *daily-journalier* have totals for the day, while *weekly-hebdo
 
 ### New installs
 
-Province/Territory aggregation is not provided for this metric, since it is unknown at the time the app is installed.
+Province/Territory aggregation is not provided for this metric, since
+it is unknown at the time the app is installed.
 
 | filename | aggregation |
 | ------------- |------------- |
@@ -77,8 +136,7 @@ Province/Territory aggregation is not provided for this metric, since it is unkn
 
 | filename | aggregation |
 | ------------- |------------- |
-| Not yet available | by date and action [turn app off vs. turn app on] |
-| Not yet available | by date and time duration [<1 hour, 2-3 hours, etc.] |
+| Not available | |
 
 
 ### Manually clearing exposure notifications
@@ -92,7 +150,15 @@ Province/Territory aggregation is not provided for this metric, since it is unkn
 
 ### Daily background checks
 
-These metrics are currently Android only. *daily_background_check_started* counts all devices that start the app's background task at least once in a given day. *daily_background_check_successfully_completed_os* counts all devices that successfully performed an exposure check in the background at least once during the day. For these files, *daily-journalier* have totals for the day, while *weekly-hebdomadaire* and *monthly-mensuel* contain averages for the week/month. 
+These metrics were initially Android only. The iOS release with these
+metrics happened on May 21, 2021. Prior to that the iOS values would
+show < 20. *daily_background_check_started* counts all devices that start
+the app's background task at least once in a given UTC day.
+*daily_background_check_successfully_completed_os* counts
+all devices that successfully performed an exposure check in the
+background at least once per UTC day. For these files, *daily-journalier*
+have totals for the day, while *weekly-hebdomadaire* and *monthly-mensuel*
+contain averages for the week/month.
 
 | filename | aggregation |
 | ------------- |------------- |
@@ -134,3 +200,4 @@ These metrics are currently Android only. *daily_background_check_started* count
 | downloads_os.*time_period*.csv | by date and OS |
 | cumulative_downloads.*time_period*.csv | by date |
 | cumulative_downloads_os.*time_period*.csv | by date and OS |
+
