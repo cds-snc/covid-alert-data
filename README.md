@@ -63,13 +63,15 @@ indicated by *time_period* in the filename: *metric_name*.*time_period*.csv.
 All dates are UTC.
 
 Legend:
- * PT = Province/Territory
- * OS = Operating System.
- * NC = Number of Checks
- * ES = Exposure Status
- * FS = Framework Status
- * DP = Date provided
- * NP = Notification Permission
+ * PT = Province/Territory (selected by the user on app setup)
+ * OS = Operating System (Android or iOS)
+ * NC = Number of Checks (???)
+ * ES = Exposure Status (if the users app has been set into an exposed
+   state based on keys retrieved from the server)
+ * FS = Framework Status (status of the GAEN framework, if it is enabled
+   or disabled)
+ * DP = Date provided (???)
+ * NP = Notification Permission (???)
 
 ### Active users
 
