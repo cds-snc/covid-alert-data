@@ -1,19 +1,19 @@
 # covid-alert-data
 
 The COVID Alert Data repository contains aggregated metrics reported by
-the COVID alert system as a whole. The repository is updated nightly with
+the COVID Alert system as a whole. The repository is updated nightly with
 data which was received the previous day.
 
 This metric data can be used to give insights into how the app is
 performing, the progression of OTK distribution and various other
-questions. For all metrics reported, for any value < 20 we have replaced
+questions. For all metrics reported, for any value smaller than 20 we have replaced
 the actual value with the text '<20'.
 
 Note: Due to the privacy settings in the app, in-app metrics don't
 necessarily cover all of the phones running the application. The privacy
 guarantees mean we don't know if all phones are reporting in, or even
 what all phones means. The CSV files should be considered a sampling of
-the population of users who's devices have reported back metrics, a lower
+the population of users whose devices have reported back metrics, a lower
 bound of the total for each in-app metric.
 
 The values in older files may also increase over time. This can happen
@@ -24,16 +24,16 @@ to increase.
 There are three sources of information coming into this repository. The
 download numbers from the App Stores, the in-app metrics reported by
 the iOS and Android applications and the metrics reported by the
-Healthcare portal. As the in-app data does not contain a complete
-representation of phones, comparing in-app metrics with Healthcare
-Portal data or App Store data should be avoided. In most cases, the
+key server. As the in-app data does not contain a complete
+representation of phones, comparing in-app metrics directly with key server data or App Store data should be avoided. In most cases, the
 in-app metrics will be lower then the corresponding metric for other
 sources.
 
-The metrics are reported over three time period. Daily, Weekly and
+The metrics are reported over three time periods: Daily, Weekly and
 Monthly. Note that those time periods can overlap, the Monthly data can
 contain days from the previous months last week. Combining numbers
-from two time frames will lead to double counting.
+from two time frames can lead to double-counting. Dates provided for Weekly 
+and Monthly data reflect the last day of that time period (for example, Monthly data for April 2021 is listed as `2021-04-30`).
 
 In-app metrics were added to the applications around March 28, 2021.
 Prior to that time there were no in-app numbers reported.  There have
