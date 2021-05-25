@@ -84,13 +84,13 @@ date,exposure_status,count
 2021-05-08,exposed,<20
 2021-05-08,monitoring,112
 2021-05-09,exposed,<20
-2021-05-09,monitoring,111
+2021-05-09,monitoring,112
 2021-05-10,exposed,<20
 2021-05-10,monitoring,91
 2021-05-11,exposed,<20
 2021-05-11,monitoring,101
 2021-05-12,exposed,<20
-2021-05-12,monitoring,95
+2021-05-12,monitoring,96
 2021-05-13,exposed,<20
 2021-05-13,monitoring,115
 2021-05-14,exposed,<20
@@ -113,3 +113,5 @@ date,exposure_status,count
 2021-05-22,monitoring,<20
 2021-05-23,exposed,<20
 2021-05-23,monitoring,<20
+2021-05-24,exposed,<20
+2021-05-24,monitoring,<20
