@@ -1,3 +1,5 @@
+[La version française suit.](#donnees-alerte-covid)
+
 # COVID Alert Data
 
 The COVID Alert Data repository contains aggregated metrics reported by
@@ -6,35 +8,43 @@ data which was received the previous day.
 
 This metric data can be used to give insights into how the app is
 performing, the progression of OTK distribution and various other
-questions. For all metrics reported, for any value smaller than 20 we have replaced
-the actual value with the text '<20', in order to align with [Treasury Board guidance on protecting privacy when releasing information about a small number of individuals](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information-privacy-notices/2020-03-protecting-privacy-releasing-information-about-small-number-individuals.html).
+questions. For all metrics reported, for any value smaller than 20 
+the actual value is replaced with the text `<20`, in order to align with [Treasury Board guidance on protecting privacy when releasing information about a small number of individuals](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information-privacy-notices/2020-03-protecting-privacy-releasing-information-about-small-number-individuals.html).
 
 For additional privacy information, see [Appendix B of the COVID Alert Privacy Assessment: COVID Alert App Metrics](https://github.com/cds-snc/covid-alert-documentation/blob/main/COVIDAlertPrivacyAssessment.md#appendix-b-covid-alert-app-metrics).
 
+### Data coverage
+
 Due to the app's [privacy-preserving design](https://github.com/cds-snc/covid-alert-documentation/blob/main/COVIDAlertPrivacyAssessment.md#5-how-does-the-covid-alert-app-work), in-app metrics don't
-necessarily cover all of the phones running the application. Users with older versions of COVID Alert that predate the introduction of in-app metrics also do not appear in this data. The app's privacy-preserving design means that it isn't possible to know if all phones are reporting in, or even
+necessarily cover all of the phones running the application. **Users with older versions of COVID Alert that predate the introduction of in-app metrics also do not appear in this data**. The app's privacy-preserving design means that it isn't possible to know if all phones are reporting in, or even
 what all phones means. The CSV files contained in this repository should be considered a sampling of
 the population of users whose devices have reported back metrics, a lower
 bound of the total for each in-app metric.
 
-The values in older files may also increase over time. This can happen
-when a phone has had data turned off for a period of days. When it comes
+The values displayed for older time periods may also increase over time. This can happen
+when a phone has had data turned off for a period of several days. When it comes
 back online it will send metrics to the server, causing the historic values
 to increase.
 
-There are three sources of information coming into this repository. The
-download numbers from the App Stores, the in-app metrics reported by
-[the iOS and Android applications](https://github.com/cds-snc/covid-alert-app) and the metrics reported by [the COVID Alert
-key server](https://github.com/cds-snc/covid-alert-server). As the in-app data does not contain a complete
+### Data sources
+
+There are three sources of information coming into this repository: 
+* Download numbers from the Apple and Google App Stores
+* In-app metrics reported by
+[the iOS and Android applications](https://github.com/cds-snc/covid-alert-app) 
+* Metrics reported by [the COVID Alert
+key server](https://github.com/cds-snc/covid-alert-server). 
+
+As the in-app data does not contain a complete
 representation of phones, comparing in-app metrics directly with key server data or App Store data should be avoided. In most cases, the
 in-app metrics will be lower then the corresponding metric for other
 sources.
 
-The CSV files use a structure based on the [Tidy data standard](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html#tidy-data).
+### Time periods
 
 The metrics are reported over three time periods: Daily, Weekly and
-Monthly. Dates provided for Weekly 
-and Monthly data reflect the last day of that time period (for example, Monthly data for April 2021 is listed as `2021-04-30`). Note that combining numbers
+Monthly. **Dates provided for Weekly 
+and Monthly data reflect the last day of that time period** (for example, Monthly data for April 2021 is listed as `2021-04-30`). Note that combining numbers
 from two time frames can lead to double-counting of overlapping time ranges; for example, the Monthly data can
 contain days from the previous month's last week in the Weekly data. 
 
@@ -43,11 +53,12 @@ Prior to that time there were no in-app numbers reported.  There have
 been subsequent releases to the apps which added new metrics.
 Some metrics will have shorter periods of time for which they have data.
 
+The CSV files use a structure based on the [Tidy data standard](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html#tidy-data).
 
 ## Quick Links
 
 Below are links to some of the high-level metrics for all users of the
-app. All of these are summed daily, and dates are in the format YYYY-MM-DD.
+app. All of these are summed daily, and dates are in the format `YYYY-MM-DD`.
 
 - [Cumulative App Store Downloads](csv/daily-journalier/cumulative_downloads_os.daily-journalier.csv)
 - [Daily Active Users](csv/daily-journalier/active_users.daily-journalier.csv)
@@ -56,7 +67,7 @@ app. All of these are summed daily, and dates are in the format YYYY-MM-DD.
 - [New Installs](csv/daily-journalier/installs.daily-journalier.csv)
 
 There are many more files in this repository, broken down by
-Province/Territory, Operating System, App Version, and other variables.
+province/territory, operating system, app version, and other variables.
 The full list is provided in the next section.
 
 ## Data Definitions
@@ -65,16 +76,17 @@ Each metric is available aggregated daily, weekly, and monthly. This is
 indicated by *time_period* in the filename: *metric_name*.*time_period*.csv.
 All dates are UTC.
 
-Legend:
- * PT = Province/Territory (selected by the user on app setup)
- * OS = Operating System (Android or iOS)
- * NC = Number of Checks (number of background checks in the specified time period)
- * ES = Exposure Status (if the user's app has been set into an "exposed"
+**Legend:**
+
+ * `PT` = Province/Territory (selected by the user on app setup)
+ * `OS` = Operating System (Android or iOS)
+ * `NC` = Number of Checks (number of background checks in the specified time period)
+ * `ES` = Exposure Status (if the user's app has been set into an "exposed"
    state based on keys retrieved from the server, or if it is in the default "monitoring" state)
- * FS = Framework Status (status of the GAEN framework, if it is enabled
+ * `FS` = Framework Status (status of the GAEN framework, if it is enabled
    or disabled)
- * DP = Date provided (if the "date of symptom onset" or "date of test" was provided when submitting an OTK)
- * NP = Notification Permission (if the operating system's notification permission was enabled for COVID Alert during onboarding)
+ * `DP` = Date provided (if the "date of symptom onset" or "date of test" was provided when submitting an OTK)
+ * `NP` = Notification Permission (if the operating system's notification permission was enabled for COVID Alert during onboarding)
 
 ### Active users
 
@@ -115,8 +127,9 @@ This indicates the number of people who received an exposure notification ("You 
 This indicates the number of users who entered a one-time key, confirming a positive COVID diagnosis within the app and initiating exposure notification alerts to phones that they were in contact with. This is the in-app equivalent of the [server-side OTKs entered metric]((#otks-claimed-server-side-data)).
 
 * These figures are smaller than the [OTKs entered into the app according to the server](#otks-claimed-server-side-data) (which gives a more accurate overall total). 
-* These differences are because in-app figures don’t include OTKs claimed in older versions of the app, before the in-app metric was introduced; the app didn’t start recording this data until March 28.
-* If a user enters an OTK within an earlier version of the app that predates in-app metrics, it will appear in the server-side data but not these files.
+  * These differences are because in-app figures don’t include OTKs claimed in older versions of the app, before the in-app metric was introduced; the app didn’t start recording this data until March 28.
+  * If a user enters an OTK within an earlier version of the app that predates in-app metrics, it will appear in the server-side data but not these files.
+* *otk_es* indicates the number of people who enter an OTK (confirming a positive COVID diagnosis) while either in the default "monitoring" state, or in the "exposed" state after having previously received an exposure notification.
 
 | filename | aggregation |
 | ------------- |------------- |
@@ -145,6 +158,8 @@ it is unknown at the time the app is installed.
 
 This indicates the number of users who complete or drop off onboarding at different stages.
 
+* In order for COVID Alert to function properly, users must enable the GAEN framework via an operating system prompt (normally, when they first install and run the app, or via their phone's operating system settings screen) as well as giving COVID Alert permission to display notifications.
+
 | filename | aggregation |
 | ------------- |------------- |
 | onboarded_os.*time_period*.csv | by date and OS |
@@ -158,7 +173,7 @@ This indicates how frequently the app's ["on/off" feature](https://www.canada.ca
 
 | filename | aggregation |
 | ------------- |------------- |
-| Not available | |
+| Not yet available | |
 
 
 ### Manually clearing exposure notifications
@@ -200,7 +215,7 @@ contain averages for the week/month.
 This indicates the total number of background checks on a given device completed in one day, grouped into ranges. 
 
 * The number of background checks that take place on a given device varies based on a number of factors (battery level, network connectivity, etc.).
-* Devices which are unable to conduct background checks are unable to send metric events. As a result, these devices do not appear in this data and the "number of checks" count for `0` is always zero devices.
+* Devices which are unable to conduct background checks are unable to send metric events. As a result, these devices do not appear in this data and the "number of checks" count for `0` is always zero devices (displayed as `<20`).
 
 | filename | aggregation |
 | ------------- |------------- |
@@ -247,3 +262,6 @@ This indicates the number of downloads (per time period, and cumulatively) of CO
 | cumulative_downloads.*time_period*.csv | by date |
 | cumulative_downloads_os.*time_period*.csv | by date and OS |
 
+# Données Alerte COVID
+
+_Traduction à venir._
