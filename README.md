@@ -11,7 +11,7 @@ performing, the progression of OTK distribution and various other
 questions. For all metrics reported, for any value smaller than 20 
 the actual value is replaced with the text `<20`, in order to align with [Treasury Board guidance on protecting privacy when releasing information about a small number of individuals](https://www.canada.ca/en/treasury-board-secretariat/services/access-information-privacy/access-information-privacy-notices/2020-03-protecting-privacy-releasing-information-about-small-number-individuals.html).
 
-For additional privacy information, see [Appendix B of the COVID Alert Privacy Assessment: COVID Alert App Metrics](https://github.com/cds-snc/covid-alert-documentation/blob/main/COVIDAlertPrivacyAssessment.md#appendix-b-covid-alert-app-metrics).
+For additional privacy information, see [Appendix B of the COVID Alert Privacy Assessment: COVID Alert App Metrics](https://github.com/cds-snc/covid-alert-documentation/blob/main/COVIDAlertPrivacyAssessment.md#appendix-b-covid-alert-app-metrics). For more background information on COVID Alert, see the [COVID Alert Documentation Repository](https://github.com/cds-snc/covid-alert-documentation) or visit the [COVID Alert page on Canada.ca](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html).
 
 ### Data coverage
 
@@ -48,9 +48,9 @@ and Monthly data reflect the last day of that time period** (for example, Monthl
 from two time frames can lead to double-counting of overlapping time ranges; for example, the Monthly data can
 contain days from the previous month's last week in the Weekly data. 
 
-In-app metrics were added to the applications around March 28, 2021.
+In-app metrics were added to the applications in late February 2021.
 Prior to that time there were no in-app numbers reported.  There have
-been subsequent releases to the apps which added new metrics.
+been subsequent releases to the app which added new metrics or corrected bugs in previously-introduced metrics.
 Some metrics will have shorter periods of time for which they have data.
 
 The CSV files use a structure based on the [Tidy data standard](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html#tidy-data).
@@ -109,10 +109,10 @@ week/month.
 
 ### Exposure notifications received
 
-This indicates the number of people who received an exposure notification ("You have been exposed"), as measured by the app switching from the default "monitoring" state to the "exposed" state.
+This indicates the number of people who received an exposure notification ("You've been exposed in the last 14 days"), as measured by the app switching from the default "monitoring" state to the "exposed" state.
 
 * Users who receive an exposure notification while running a version of the app from before in-app metrics were introduced do not appear in this data.
-* *exposed_pt_es* indicates the number of people who received an exposure notification based on the current state of the app (for example, for users who receive multiple notifications within the same "exposed" time period).
+* *exposed_es* and *exposed_pt_es* indicate the number of people who received an exposure notification based on the current state of the app (for example, for users who receive multiple notifications within the same "exposed" time period).
 
 | filename | aggregation |
 | ------------- |------------- |
@@ -120,6 +120,7 @@ This indicates the number of people who received an exposure notification ("You 
 | exposed_pt.*time_period*.csv | by date and PT |
 | exposed_pt_os.*time_period*.csv | by date, PT, and OS |
 | exposed_pt_es.*time_period*.csv | by date, PT, and exposure status prior to receiving notification |
+| exposed_es.*time_period*.csv | by date and exposure status prior to receiving notification |
 
 
 ### OTKs entered
@@ -196,7 +197,7 @@ metrics happened on May 21, 2021. Prior to that the iOS values would
 show `<20`. 
 * *daily_background_check_started* counts all devices that start
 the app's background task at least once in a given UTC day.
-* *daily_background_check_successfully_completed_os* counts
+* *daily_background_check_successfully_completed* counts
 all devices that successfully performed an exposure check in the
 background at least once per UTC day. 
 
