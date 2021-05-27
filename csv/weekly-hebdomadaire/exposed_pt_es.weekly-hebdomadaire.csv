@@ -1,4 +1,4 @@
-date,region,exposure_status,count
+date,region,exposure_status-etat_verification,count-nombre
 2021-03-28,AB,exposed,<20
 2021-03-28,AB,monitoring,<20
 2021-03-28,BC,exposed,<20
@@ -239,7 +239,7 @@ date,region,exposure_status,count
 2021-05-23,NS,monitoring,<20
 2021-05-23,NU,exposed,<20
 2021-05-23,NU,monitoring,<20
-2021-05-23,ON,exposed,2819
+2021-05-23,ON,exposed,2820
 2021-05-23,ON,monitoring,508
 2021-05-23,PE,exposed,<20
 2021-05-23,PE,monitoring,<20

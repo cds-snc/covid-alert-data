@@ -1,4 +1,4 @@
-date,region,appos,count
+date,region,os-se,count-nombre
 2021-02-28,AB,android,<20
 2021-02-28,AB,ios,<20
 2021-02-28,BC,android,<20
@@ -351,7 +351,7 @@ date,region,appos,count
 2021-05-23,NS,ios,35
 2021-05-23,NU,android,<20
 2021-05-23,NU,ios,<20
-2021-05-23,ON,android,1129
+2021-05-23,ON,android,1130
 2021-05-23,ON,ios,2209
 2021-05-23,PE,android,<20
 2021-05-23,PE,ios,<20

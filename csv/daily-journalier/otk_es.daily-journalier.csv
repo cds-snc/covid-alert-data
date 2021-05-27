@@ -1,4 +1,4 @@
-date,exposure_status,count
+date,exposure_status-etat_verification,count-nombre
 2021-03-28,exposed,<20
 2021-03-28,monitoring,<20
 2021-03-29,exposed,<20
@@ -52,7 +52,7 @@ date,exposure_status,count
 2021-04-22,exposed,<20
 2021-04-22,monitoring,181
 2021-04-23,exposed,<20
-2021-04-23,monitoring,170
+2021-04-23,monitoring,171
 2021-04-24,exposed,<20
 2021-04-24,monitoring,173
 2021-04-25,exposed,<20
@@ -117,3 +117,5 @@ date,exposure_status,count
 2021-05-24,monitoring,<20
 2021-05-25,exposed,<20
 2021-05-25,monitoring,<20
+2021-05-26,exposed,<20
+2021-05-26,monitoring,<20
