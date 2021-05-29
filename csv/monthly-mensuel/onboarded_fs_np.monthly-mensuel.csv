@@ -9,10 +9,10 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2021-03-31,enabled,granted,123528
 2021-03-31,enabled,denied,76
 2021-03-31,disabled,blocked,2634
-2021-03-31,disabled,granted,25697
+2021-03-31,disabled,granted,25698
 2021-03-31,disabled,denied,38
 2021-04-30,enabled,blocked,2734
-2021-04-30,enabled,granted,121844
+2021-04-30,enabled,granted,121847
 2021-04-30,enabled,denied,76
 2021-04-30,disabled,blocked,2911
 2021-04-30,disabled,granted,25089
