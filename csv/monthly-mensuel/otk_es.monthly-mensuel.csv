@@ -1,7 +1,7 @@
 date,exposure_status-etat_verification,count-nombre
-2021-03-31,exposed,<20
-2021-03-31,monitoring,<20
-2021-04-30,exposed,415
-2021-04-30,monitoring,4301
-2021-05-31,exposed,157
-2021-05-31,monitoring,1987
+2021-03-31,exposed-expose,<20
+2021-03-31,monitoring-surveillance,<20
+2021-04-30,exposed-expose,416
+2021-04-30,monitoring-surveillance,4311
+2021-05-31,exposed-expose,157
+2021-05-31,monitoring-surveillance,1998
