@@ -43,8 +43,8 @@ date,region,date_provided-date_fournie,count-nombre
 2021-04-30,NS,no_date-date_so,<20
 2021-04-30,NU,date,<20
 2021-04-30,NU,no_date-date_so,<20
-2021-04-30,ON,date,3368
-2021-04-30,ON,no_date-date_so,491
+2021-04-30,ON,date,3370
+2021-04-30,ON,no_date-date_so,492
 2021-04-30,PE,date,<20
 2021-04-30,PE,no_date-date_so,<20
 2021-04-30,QC,date,170
@@ -59,7 +59,7 @@ date,region,date_provided-date_fournie,count-nombre
 2021-05-31,AB,no_date-date_so,<20
 2021-05-31,BC,date,<20
 2021-05-31,BC,no_date-date_so,<20
-2021-05-31,MB,date,249
+2021-05-31,MB,date,250
 2021-05-31,MB,no_date-date_so,21
 2021-05-31,NB,date,<20
 2021-05-31,NB,no_date-date_so,<20
@@ -71,13 +71,13 @@ date,region,date_provided-date_fournie,count-nombre
 2021-05-31,NS,no_date-date_so,<20
 2021-05-31,NU,date,<20
 2021-05-31,NU,no_date-date_so,<20
-2021-05-31,ON,date,1415
+2021-05-31,ON,date,1417
 2021-05-31,ON,no_date-date_so,93
 2021-05-31,PE,date,<20
 2021-05-31,PE,no_date-date_so,<20
 2021-05-31,QC,date,62
 2021-05-31,QC,no_date-date_so,<20
-2021-05-31,SK,date,161
+2021-05-31,SK,date,164
 2021-05-31,SK,no_date-date_so,<20
 2021-05-31,YT,date,<20
 2021-05-31,YT,no_date-date_so,<20
