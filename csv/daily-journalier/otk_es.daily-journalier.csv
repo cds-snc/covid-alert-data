@@ -24,7 +24,7 @@ date,exposure_status-etat_verification,count-nombre
 2021-04-08,exposed-expose,36
 2021-04-08,monitoring-surveillance,337
 2021-04-09,exposed-expose,<20
-2021-04-09,monitoring-surveillance,246
+2021-04-09,monitoring-surveillance,247
 2021-04-10,exposed-expose,37
 2021-04-10,monitoring-surveillance,212
 2021-04-11,exposed-expose,21
@@ -78,7 +78,7 @@ date,exposure_status-etat_verification,count-nombre
 2021-05-05,exposed-expose,<20
 2021-05-05,monitoring-surveillance,131
 2021-05-06,exposed-expose,<20
-2021-05-06,monitoring-surveillance,118
+2021-05-06,monitoring-surveillance,119
 2021-05-07,exposed-expose,<20
 2021-05-07,monitoring-surveillance,125
 2021-05-08,exposed-expose,<20
@@ -102,7 +102,7 @@ date,exposure_status-etat_verification,count-nombre
 2021-05-17,exposed-expose,<20
 2021-05-17,monitoring-surveillance,80
 2021-05-18,exposed-expose,<20
-2021-05-18,monitoring-surveillance,78
+2021-05-18,monitoring-surveillance,79
 2021-05-19,exposed-expose,<20
 2021-05-19,monitoring-surveillance,71
 2021-05-20,exposed-expose,<20
@@ -135,3 +135,5 @@ date,exposure_status-etat_verification,count-nombre
 2021-06-02,monitoring-surveillance,<20
 2021-06-03,exposed-expose,<20
 2021-06-03,monitoring-surveillance,<20
+2021-06-04,exposed-expose,<20
+2021-06-04,monitoring-surveillance,<20
