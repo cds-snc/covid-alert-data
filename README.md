@@ -249,7 +249,11 @@ Dates below indicate when changes were made to COVID Alert that affect the data 
 Changes to reported metrics in this repository typically appear several days after a new app update is published. Users’ phones update to the latest published version over 1-3 days (if automatic updates are enabled), and data begins appearing in this repository the following day.
 
 
-
+*   **June 7, 2021**
+    *   Fixed missing _otk_ data (affecting results from May 19 to June 7, 2021)
+*   **June 3, 2021**
+    *   App version 1.4.1 published
+        *   Updates to _daily_background_check_started_ and _active_users_ metrics for iOS devices
 *   **May 25, 2021**
     *   Additional background information added to this Readme file
 *   **May 21, 2021**
@@ -368,7 +372,7 @@ Le référentiel contient plusieurs autres fichiers, ventilés par province/terr
 
 ## Définitions des données
 
-Chaque mesure de performance est disponible en format agrégé quotidiennement, hebdomadairement et mensuellement. Ceci est indiqué par _time_period_ dans le nom de fichier : _metric_name_._time_period_.csv. Toutes les dates sont au format UTC.
+Chaque mesure de performance est disponible en format agrégé quotidiennement, hebdomadairement et mensuellement. Ceci est indiqué par _periode_ dans le nom de fichier : _nom_de_mesure_._periode_.csv. Toutes les dates sont au format UTC.
 
 **Légende :**
 
@@ -380,6 +384,7 @@ Chaque mesure de performance est disponible en format agrégé quotidiennement, 
 *   `DP` = Date fournie (si la « date des premiers symptômes » ou la « date du test » a été fournie lors de l’utilisation d’une clé à usage unique)
 *   `NP` = Autorisation de notification (si l’autorisation de notification du système d’exploitation a été activée pour Alerte COVID lors de la configuration)
 
+Les en-têtes et les mots-clés sont rédigés en anglais et en français, séparés par un trait d’union. Aucune diacritique n’est utilisée afin d’assurer la compatibilité du fichier CSV d’un système à l’autre.
 
 ### Utilisateurs actifs
 
@@ -396,31 +401,31 @@ Dans ces fichiers, [daily-quotidienne](https://github.com/cds-snc/covid-alert-da
    </td>
   </tr>
   <tr>
-   <td>active_users.<em>time_period</em>.csv
+   <td>active_users.<em>periode</em>.csv
    </td>
    <td>par date
    </td>
   </tr>
   <tr>
-   <td>active_users_pt.<em>time_period</em>.csv
+   <td>active_users_pt.<em>periode</em>.csv
    </td>
    <td>par date et PT
    </td>
   </tr>
   <tr>
-   <td>active_users_os.<em>time_period</em>.csv
+   <td>active_users_os.<em>periode</em>.csv
    </td>
    <td>par date et OS
    </td>
   </tr>
   <tr>
-   <td>active_users_pt_os.<em>time_period</em>.csv
+   <td>active_users_pt_os.<em>periode</em>.csv
    </td>
    <td>par date, PT et OS
    </td>
   </tr>
   <tr>
-   <td>active_users_os_av.<em>time_period</em>.csv
+   <td>active_users_os_av.<em>periode</em>.csv
    </td>
    <td>par date, OS et version de l’application
    </td>
@@ -445,31 +450,31 @@ Cette mesure représente le nombre de notifications d’exposition (« Vous ave
    </td>
   </tr>
   <tr>
-   <td>exposed.<em>time_period</em>.csv
+   <td>exposed.<em>periode</em>.csv
    </td>
    <td>par date
    </td>
   </tr>
   <tr>
-   <td>exposed_pt.<em>time_period</em>.csv
+   <td>exposed_pt.<em>periode</em>.csv
    </td>
    <td>par date et PT
    </td>
   </tr>
   <tr>
-   <td>exposed_pt_os.<em>time_period</em>.csv
+   <td>exposed_pt_os.<em>periode</em>.csv
    </td>
    <td>par date, PT et OS
    </td>
   </tr>
   <tr>
-   <td>exposed_pt_es.<em>time_period</em>.csv
+   <td>exposed_pt_es.<em>periode</em>.csv
    </td>
    <td>par date, PT et statut d’exposition avant la réception de la notification
    </td>
   </tr>
   <tr>
-   <td>exposed_es.<em>time_period</em>.csv
+   <td>exposed_es.<em>periode</em>.csv
    </td>
    <td>par date et statut d’exposition avant la réception de la notification
    </td>
@@ -495,31 +500,31 @@ Cela indique le nombre d’utilisateurs qui ont saisi une clé à usage unique, 
    </td>
   </tr>
   <tr>
-   <td>otk.<em>time_period</em>.csv
+   <td>otk.<em>periode</em>.csv
    </td>
    <td>par date
    </td>
   </tr>
   <tr>
-   <td>otk_pt.<em>time_period</em>.csv
+   <td>otk_pt.<em>periode</em>.csv
    </td>
    <td>par date et PT
    </td>
   </tr>
   <tr>
-   <td>otk_pt_os.<em>time_period</em>.csv
+   <td>otk_pt_os.<em>periode</em>.csv
    </td>
    <td>par date, PT et OS
    </td>
   </tr>
   <tr>
-   <td>otk_es.<em>time_period</em>.csv
+   <td>otk_es.<em>periode</em>.csv
    </td>
    <td>par date et état d’exposition avant de saisir une clé à usage unique
    </td>
   </tr>
   <tr>
-   <td>otk_pt_dp.<em>time_period</em>.csv
+   <td>otk_pt_dp.<em>periode</em>.csv
    </td>
    <td>par date, PT et date du test/des premiers symptômes fournis [avec date vs sans date]
    </td>
@@ -542,19 +547,19 @@ Cette mesure représente les nouvelles installations ou réinstallations d’Ale
    </td>
   </tr>
   <tr>
-   <td>installs.<em>time_period</em>.csv
+   <td>installs.<em>periode</em>.csv
    </td>
    <td>par date
    </td>
   </tr>
   <tr>
-   <td>installs_os.<em>time_period</em>.csv
+   <td>installs_os.<em>periode</em>.csv
    </td>
    <td>par date et OS
    </td>
   </tr>
   <tr>
-   <td>installs_os_av.<em>time_period</em>.csv
+   <td>installs_os_av.<em>periode</em>.csv
    </td>
    <td>par date, OS et version de l’application
    </td>
@@ -577,19 +582,19 @@ Cette mesure représente le nombre d’utilisateurs qui terminent ou abandonnent
    </td>
   </tr>
   <tr>
-   <td>onboarded_os.<em>time_period</em>.csv
+   <td>onboarded_os.<em>periode</em>.csv
    </td>
    <td>par date et OS
    </td>
   </tr>
   <tr>
-   <td>onboarded_os_av.<em>time_period</em>.csv
+   <td>onboarded_os_av.<em>periode</em>.csv
    </td>
    <td>par date, OS et version de l’application
    </td>
   </tr>
   <tr>
-   <td>onboarded_fe_np.<em>time_period</em>.csv
+   <td>onboarded_fe_np.<em>periode</em>.csv
    </td>
    <td>par date, cadre GAEN activé et affichage de notifications autorisé
    </td>
@@ -629,7 +634,7 @@ Cette mesure indique à quelle fréquence la fonction [« Effacer manuellement 
    </td>
   </tr>
   <tr>
-   <td>clear_exposed.<em>time_period</em>.csv
+   <td>clear_exposed.<em>periode</em>.csv
    </td>
    <td>par date
    </td>
@@ -668,13 +673,13 @@ Dans ces fichiers, _daily-quotidienne_ comprend les totaux quotidiens, alors que
    </td>
   </tr>
   <tr>
-   <td>daily_background_check_started_os.<em>time_period</em>.csv
+   <td>daily_background_check_started_os.<em>periode</em>.csv
    </td>
    <td>par date et OS
    </td>
   </tr>
   <tr>
-   <td>daily_background_check_successfully_completed_os.<em>time_period</em>.csv
+   <td>daily_background_check_successfully_completed_os.<em>periode</em>.csv
    </td>
    <td>par date et OS
    </td>
@@ -698,19 +703,19 @@ Cette mesure représente le nombre total de vérifications en arrière-plan exé
    </td>
   </tr>
   <tr>
-   <td>background_checks_nc.<em>time_period</em>.csv
+   <td>background_checks_nc.<em>periode</em>.csv
    </td>
    <td>par date et nombre de vérifications en arrière-plan [1 à 3 par jour, 4 à 6 par jour, etc.]
    </td>
   </tr>
   <tr>
-   <td>background_checks_nc_os.<em>time_period</em>.csv
+   <td>background_checks_nc_os.<em>periode</em>.csv
    </td>
    <td>par date, nombre de vérifications et OS
    </td>
   </tr>
   <tr>
-   <td>background_checks_nc_os_av.<em>time_period</em>.csv
+   <td>background_checks_nc_os_av.<em>periode</em>.csv
    </td>
    <td>par date, nombre de vérifications, OS et version de l’application
    </td>
@@ -740,13 +745,13 @@ Cette mesure représente le nombre de clés à usage unique générées par le p
    </td>
   </tr>
   <tr>
-   <td>server_otk_generated.<em>time_period</em>.csv
+   <td>server_otk_generated.<em>periode</em>.csv
    </td>
    <td>par date
    </td>
   </tr>
   <tr>
-   <td>server_otk_generated_pt.<em>time_period</em>.csv
+   <td>server_otk_generated_pt.<em>periode</em>.csv
    </td>
    <td>par date et PT
    </td>
@@ -770,13 +775,13 @@ Cette mesure indique le nombre de clés à usage unique utilisées via l’appli
    </td>
   </tr>
   <tr>
-   <td>server_otk_claimed.<em>time_period</em>.csv
+   <td>server_otk_claimed.<em>periode</em>.csv
    </td>
    <td>par date
    </td>
   </tr>
   <tr>
-   <td>server_otk_claimed_pt.<em>time_period</em>.csv
+   <td>server_otk_claimed_pt.<em>periode</em>.csv
    </td>
    <td>par date et PT
    </td>
@@ -795,25 +800,25 @@ Cette mesure indique le nombre de téléchargements (par période et cumulatif) 
    </td>
   </tr>
   <tr>
-   <td>downloads.<em>time_period</em>.csv
+   <td>downloads.<em>periode</em>.csv
    </td>
    <td>par date
    </td>
   </tr>
   <tr>
-   <td>downloads_os.<em>time_period</em>.csv
+   <td>downloads_os.<em>periode</em>.csv
    </td>
    <td>par date et OS
    </td>
   </tr>
   <tr>
-   <td>cumulative_downloads.<em>time_period</em>.csv
+   <td>cumulative_downloads.<em>periode</em>.csv
    </td>
    <td>par date
    </td>
   </tr>
   <tr>
-   <td>cumulative_downloads_os.<em>time_period</em>.csv
+   <td>cumulative_downloads_os.<em>periode</em>.csv
    </td>
    <td>par date et OS
    </td>
@@ -827,6 +832,11 @@ Les dates ci-dessous représentent des modifications apportées à Alerte COVID 
 
 Les modifications apportées aux mesures comprises dans ce référentiel apparaissent généralement plusieurs jours après la publication d’une nouvelle mise à jour de l’application. Les appareils des utilisateurs sont mis à jour vers la dernière version publiée sur une période de 1 à 3 jours (si les mises à jour automatiques sont activées), et les données commencent à apparaître dans ce référentiel le jour suivant.
 
+*   **7 juin 2021**
+    *    Correction pour mesures _otk_ absentes (affectant les données du 19 mai jusqu’au 7 juin 2021)
+*   **3 juin 2021**
+    *   Publication de la version 1.4.1 de l’application
+        *   Mise à jour des mesures _daily_background_check_started_ et _active_users_ pour les appareils iOS
 *   **25 mai 2021**
     *   Informations contextuelles supplémentaires ajoutées au fichier Lisez-moi
 *   **21 mai 2021**
