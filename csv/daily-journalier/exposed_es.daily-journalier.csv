@@ -119,7 +119,7 @@ date,exposure_status-etat_verification,count-nombre
 2021-05-24,monitoring-surveillance,73
 2021-05-25,exposed-expose,425
 2021-05-25,monitoring-surveillance,73
-2021-05-26,exposed-expose,376
+2021-05-26,exposed-expose,378
 2021-05-26,monitoring-surveillance,83
 2021-05-27,exposed-expose,323
 2021-05-27,monitoring-surveillance,59
@@ -129,7 +129,7 @@ date,exposure_status-etat_verification,count-nombre
 2021-05-29,monitoring-surveillance,51
 2021-05-30,exposed-expose,258
 2021-05-30,monitoring-surveillance,49
-2021-05-31,exposed-expose,248
+2021-05-31,exposed-expose,249
 2021-05-31,monitoring-surveillance,36
 2021-06-01,exposed-expose,298
 2021-06-01,monitoring-surveillance,64
@@ -141,5 +141,7 @@ date,exposure_status-etat_verification,count-nombre
 2021-06-04,monitoring-surveillance,42
 2021-06-05,exposed-expose,143
 2021-06-05,monitoring-surveillance,29
-2021-06-06,exposed-expose,110
+2021-06-06,exposed-expose,115
 2021-06-06,monitoring-surveillance,<20
+2021-06-07,exposed-expose,114
+2021-06-07,monitoring-surveillance,28
