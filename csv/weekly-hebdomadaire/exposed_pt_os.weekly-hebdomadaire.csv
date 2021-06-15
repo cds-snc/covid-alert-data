@@ -330,7 +330,7 @@ date,region,os-se,count-nombre
 2021-05-16,QC,android,119
 2021-05-16,QC,ios,144
 2021-05-16,SK,android,103
-2021-05-16,SK,ios,243
+2021-05-16,SK,ios,250
 2021-05-16,YT,android,<20
 2021-05-16,YT,ios,<20
 2021-05-16,npts-ptso,android,71
@@ -435,13 +435,13 @@ date,region,os-se,count-nombre
 2021-06-13,NS,ios,<20
 2021-06-13,NU,android,<20
 2021-06-13,NU,ios,<20
-2021-06-13,ON,android,292
+2021-06-13,ON,android,311
 2021-06-13,ON,ios,582
 2021-06-13,PE,android,<20
 2021-06-13,PE,ios,<20
 2021-06-13,QC,android,<20
 2021-06-13,QC,ios,<20
-2021-06-13,SK,android,56
+2021-06-13,SK,android,58
 2021-06-13,SK,ios,27
 2021-06-13,YT,android,<20
 2021-06-13,YT,ios,<20

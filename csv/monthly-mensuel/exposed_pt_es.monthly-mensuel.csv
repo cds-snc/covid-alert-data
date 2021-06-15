@@ -77,8 +77,8 @@ date,region,exposure_status-etat_verification,count-nombre
 2021-05-31,PE,monitoring-surveillance,<20
 2021-05-31,QC,exposed-expose,923
 2021-05-31,QC,monitoring-surveillance,155
-2021-05-31,SK,exposed-expose,948
-2021-05-31,SK,monitoring-surveillance,210
+2021-05-31,SK,exposed-expose,954
+2021-05-31,SK,monitoring-surveillance,211
 2021-05-31,YT,exposed-expose,<20
 2021-05-31,YT,monitoring-surveillance,<20
 2021-05-31,npts-ptso,exposed-expose,689

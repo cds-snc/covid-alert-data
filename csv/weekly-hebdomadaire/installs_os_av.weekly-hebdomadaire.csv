@@ -72,7 +72,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-03-21,android,1.2.5,<20
 2021-03-21,android,1.2.6,<20
 2021-03-21,android,1.2.7,37
-2021-03-21,android,1.2.8,36
+2021-03-21,android,1.2.8,37
 2021-03-21,android,1.2.9,<20
 2021-03-21,android,1.4.2,<20
 2021-03-21,ios,1.2.0,245
@@ -114,7 +114,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-04-04,android,1.2.6,126
 2021-04-04,android,1.2.7,49
 2021-04-04,android,1.2.8,41
-2021-04-04,android,1.2.9,21
+2021-04-04,android,1.2.9,22
 2021-04-04,android,1.4.2,<20
 2021-04-04,ios,1.2.0,156
 2021-04-04,ios,1.2.1,76
@@ -174,7 +174,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-04-25,android,1.2.6,131
 2021-04-25,android,1.2.7,13894
 2021-04-25,android,1.2.8,369
-2021-04-25,android,1.2.9,33
+2021-04-25,android,1.2.9,34
 2021-04-25,android,1.4.2,<20
 2021-04-25,ios,1.2.0,86
 2021-04-25,ios,1.2.1,39
@@ -310,7 +310,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-06-06,android,1.2.8,143
 2021-06-06,android,1.2.9,7895
 2021-06-06,android,1.3.0,<20
-2021-06-06,android,1.4.2,90
+2021-06-06,android,1.4.2,93
 2021-06-06,ios,1.2.0,59
 2021-06-06,ios,1.2.1,27
 2021-06-06,ios,1.2.2,35
@@ -321,7 +321,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-06-06,ios,1.2.8,269
 2021-06-06,ios,1.2.9,60
 2021-06-06,ios,1.4.0,10274
-2021-06-06,ios,1.4.1,7346
+2021-06-06,ios,1.4.1,7347
 2021-06-13,android,1.2.0,25
 2021-06-13,android,1.2.1,<20
 2021-06-13,android,1.2.2,<20
@@ -331,8 +331,8 @@ date,os-se,app_version-version_appli,count-nombre
 2021-06-13,android,1.2.6,<20
 2021-06-13,android,1.2.7,42
 2021-06-13,android,1.2.8,99
-2021-06-13,android,1.2.9,1699
-2021-06-13,android,1.4.2,5956
+2021-06-13,android,1.2.9,1700
+2021-06-13,android,1.4.2,5961
 2021-06-13,android,1.4.3,83
 2021-06-13,android,2.0.0,82
 2021-06-13,ios,1.2.0,57
@@ -345,5 +345,5 @@ date,os-se,app_version-version_appli,count-nombre
 2021-06-13,ios,1.2.8,226
 2021-06-13,ios,1.2.9,33
 2021-06-13,ios,1.4.0,322
-2021-06-13,ios,1.4.1,17303
+2021-06-13,ios,1.4.1,17313
 2021-06-13,ios,2.0.0,<20
