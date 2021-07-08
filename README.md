@@ -228,7 +228,7 @@ This indicates the number of users who entered a one-time key (OTK), confirming 
 
 ### One-time keys (OTKs) claimed
 
-This indicates the number of one-time keys claimed via the app by COVID Alert users with positive COVID diagnoses. This is the server-side equivalent of [the in-app "OTKs entered into the app" metric above](https://github.com/cds-snc/covid-alert-data#one-time-keys-entered.
+This indicates the number of one-time keys claimed via the app by COVID Alert users with positive COVID diagnoses. This is the server-side equivalent of [the in-app "OTKs entered into the app" metric above](https://github.com/cds-snc/covid-alert-data#one-time-keys-entered).
 
  * Server-side OTK data was collected from October 3, 2020 onwards. The total  number of OTKs claimed is [published on Canada.ca under "One-time keys used"](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html#a6).
  * 698 OTKs were claimed between the launch of the app (July 31, 2020) and the introduction of server-side OTK data collection (October 3, 2020). These 698 OTKs are included in [the Canada.ca total](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html#a6) but not the files below.
