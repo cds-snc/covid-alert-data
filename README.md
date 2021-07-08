@@ -10,7 +10,7 @@ For additional privacy information, see [Appendix B of the COVID Alert Privacy A
 
 ### Data coverage
 
-Due to the app’s [privacy-preserving design](https://github.com/cds-snc/covid-alert-documentation/blob/main/COVIDAlertPrivacyAssessment.md#5-how-does-the-covid-alert-app-work), in-app metrics don’t necessarily represent all of the phones running the application. The app’s privacy-preserving design means that it isn’t possible to know if all phones are reporting in. Users with older versions of COVID Alert that predate the introduction of in-app metrics on February 25, 2021 also do not appear in this data. As a result, the CSV files pertaining to in-app metrics contained in this repository should be considered a sampling of the full population of COVID Alert users.
+Due to the app’s [privacy-preserving design](https://github.com/cds-snc/covid-alert-documentation/blob/main/COVIDAlertPrivacyAssessment.md#5-how-does-the-covid-alert-app-work), in-app metrics don’t necessarily represent all of the phones running the application. The app’s privacy-preserving design means that it isn’t possible to know if all phones are reporting in. **Users with older versions of COVID Alert that predate the introduction of in-app metrics on February 25, 2021 also do not appear in this data**. As a result, the CSV files pertaining to in-app metrics contained in this repository should be considered a sampling of the full population of COVID Alert users.
 
 The values displayed for older time periods may also increase over time. This can happen when a phone has had data turned off for a period of several days. When it comes back online it will send metrics to the server, causing the historic values to increase.
 
@@ -26,7 +26,7 @@ As the in-app data does not contain a complete representation of phones, compari
 
 ### Time periods
 
-The metrics are reported over three time periods: Daily, Weekly and Monthly. Dates provided for Weekly and Monthly data reflect the last day of that time period (for example, Monthly data for April 2021 is listed as `2021-04-30`). Note that combining numbers from two time frames can lead to double-counting of overlapping time ranges; for example, the Monthly data can contain days from the previous month’s last week in the Weekly data.
+The metrics are reported over three time periods: Daily, Weekly and Monthly. **Dates provided for Weekly and Monthly data reflect the last day of that time period** (for example, Monthly data for April 2021 is listed as `2021-04-30`). Note that combining numbers from two time frames can lead to double-counting of overlapping time ranges; for example, the Monthly data can contain days from the previous month’s last week in the Weekly data.
 
 In-app metrics were added to the COVID Alert service on February 25, 2021. Prior to that time there were no in-app numbers reported. There have been subsequent releases to the app that added new metrics or corrected bugs in previously-introduced metrics. Some metrics will have shorter periods of time for which they have data. See the [Changelog](https://github.com/cds-snc/covid-alert-data#changelog) for more details.
 
@@ -35,17 +35,17 @@ The CSV files use a structure based on the [Tidy data standard](https://cran.r-p
 ## Context and Limitations
 
  * This repository includes data from the [three data sources listed above](https://github.com/cds-snc/covid-alert-data#data-sources).
- * Due to COVID Alert’s [privacy-preserving design](https://github.com/cds-snc/covid-alert-documentation/blob/main/COVIDAlertPrivacyAssessment.md#5-how-does-the-covid-alert-app-work), in-app metrics are collected in aggregate, meaning that (a) in-app metrics are estimates, and (b) data cannot be connected to specific devices. It is not possible to comment on changes in the behaviour of specific devices or sets of devices. No other information is available directly from the app or exposure notification framework.
- * In-app metrics data should be considered a subset of the overall number of COVID Alert users. Data originating from in-app metrics represents COVID Alert users that are running a version of the app that includes the in-app metrics feature, and whose devices are successfully performing background checks.
- * In-app metrics data is only available as of February 25, 2021, when metrics were launched with a new version of the app. Additional fixes were also made throughout the following months. Server-side metrics data are available as of October 3, 2020. Prior to the addition of server and in-app metrics, only App Store download metrics were available.
- * Start dates for CSV files in this repository vary, based on when technical improvements or fixes were published for specific metrics.
- * In-app metrics data does not necessarily appear on GitHub on the date it is collected. As a result, historic data may change over time. This is because a device needs to be connected to data or Wi-Fi to send metrics data to the server. If a phone is disconnected from data or Wi-Fi, and then reconnects, the app may send metric information for the days it was offline.
+ * **Due to COVID Alert’s [privacy-preserving design](https://github.com/cds-snc/covid-alert-documentation/blob/main/COVIDAlertPrivacyAssessment.md#5-how-does-the-covid-alert-app-work), in-app metrics are collected in aggregate,** meaning that (a) in-app metrics are estimates, and (b) data cannot be connected to specific devices. It is not possible to comment on changes in the behaviour of specific devices or sets of devices. No other information is available directly from the app or exposure notification framework.
+ * **In-app metrics data should be considered a subset of the overall number of COVID Alert users**. Data originating from in-app metrics represents COVID Alert users that are running a version of the app that includes the in-app metrics feature, and whose devices are successfully performing background checks.
+ * **In-app metrics data is only available as of February 25, 2021, when metrics were launched with a new version of the app**. Additional fixes were also made throughout the following months. Server-side metrics data are available as of October 3, 2020. Prior to the addition of server and in-app metrics, only App Store download metrics were available.
+ * **Start dates for CSV files in this repository vary**, based on when technical improvements or fixes were published for specific metrics.
+ * **In-app metrics data does not necessarily appear on GitHub on the date it is collected.** As a result, historic data may change over time. This is because a device needs to be connected to data or Wi-Fi to send metrics data to the server. If a phone is disconnected from data or Wi-Fi, and then reconnects, the app may send metric information for the days it was offline.
  * Notable jumps or reductions in data counts for certain metrics (for example OTKs or notifications) on specific dates may be attributed to technical changes with the data.
    * See the [Changelog](https://github.com/cds-snc/covid-alert-data#changelog) below for details on app or repository changes that may be reflected in the data.
    * **If you have a question about the data please file an issue in the [GitHub issue tracker](https://github.com/cds-snc/covid-alert-data/issues/new).**
  * Data for the number of OTKs claimed on the server (the server-side otk_claimed metric) and the number of OTKs entered into the app (the in-app otk metric) are not equal. This is expected, and is due to some users still running versions of COVID Alert that predate the metrics feature. Users with older versions of COVID Alert can still successfully enter OTKs into their phones in the case of a positive diagnosis, which will increase the server-side otk_claimed metric, but not the in-app otk metric.
  * The "one-time keys entered" total [listed on Canada.ca](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html#a6), which originates from server-side OTK data, is slightly higher than the server-side otk_claimed data in the metrics data repository. This is expected, and is due to server-side metric logging by date being rolled out several months after the app was launched, in early October 3, 2020.
- * COVID Alert is one part of Canada’s COVID-19 response.
+ * **COVID Alert is one part of Canada’s COVID-19 response.**
    * For broader social and public health data, see the [Public Health Agency of Canada’s COVID-19 data visualization website](https://health-infobase.canada.ca/covid-19/), which includes source data in CSV format, or provincial and territorial public health websites.
    * For data on mobile phone adoption in Canada, see Statistics Canada’s [2018 data on smartphone use](https://health-infobase.canada.ca/covid-19/).
 
@@ -54,11 +54,11 @@ The CSV files use a structure based on the [Tidy data standard](https://cran.r-p
 
 Below are links to some of the high-level metrics for all users of the app. All of these are summed daily, and dates are in the format `YYYY-MM-DD`.
 
- * [Cumulative App Store Downloads](https://github.com/cds-snc/covid-alert-data/blob/main/csv/daily-journalier/cumulative_downloads_os.daily-journalier.csv)
- * [Daily Active Users](https://github.com/cds-snc/covid-alert-data/blob/main/csv/daily-journalier/active_users.daily-journalier.csv)
- * [Exposure Notifications Received](https://github.com/cds-snc/covid-alert-data/blob/main/csv/daily-journalier/exposed.daily-journalier.csv)
- * [One Time Keys Entered](https://github.com/cds-snc/covid-alert-data/blob/main/csv/daily-journalier/otk.daily-journalier.csv)
- * [New Installs](https://github.com/cds-snc/covid-alert-data/blob/main/csv/daily-journalier/installs.daily-journalier.csv)
+ * [Cumulative App Store Downloads](csv/daily-journalier/cumulative_downloads_os.daily-journalier.csv)
+ * [Daily Active Users](csv/daily-journalier/active_users.daily-journalier.csv)
+ * [Exposure Notifications Received](csv/daily-journalier/exposed.daily-journalier.csv)
+ * [One Time Keys Entered](csv/daily-journalier/otk.daily-journalier.csv)
+ * [New Installs](csv/daily-journalier/installs.daily-journalier.csv)
 
 There are many more files in this repository, broken down by province/territory, operating system, app version, and other variables. The full list is provided in the next section.
 
@@ -272,39 +272,39 @@ Dates below indicate when changes were made to COVID Alert that affect the data 
 
 Changes to reported metrics in this repository typically appear several days after a new app update is published. Users’ phones update to the latest published version over 1-3 days (if automatic updates are enabled), and data begins appearing in this repository the following day.
 
- * June 7, 2021
+ * **June 7, 2021**
    * Fixed a backend processing issue with *otk* CSV files (correcting data from May 19 to June 7, 2021)
- * June 3, 2021
+ * **June 3, 2021**
    * App version 1.4.1 published
      * Updates to how *daily_background_check_started* and *active_users* metrics are sent by iOS devices
- * May 25, 2021
+ * **May 25, 2021**
    * Additional background information added to this Readme file
- * May 21, 2021
+ * **May 21, 2021**
    * Fixed metrics destination for *daily_background_check_started* and *daily_background_check_successfully_completed* on iOS devices
- * May 19, 2021
+ * **May 19, 2021**
    * *on_off_ac* removed (not currently updated)
- * May 18, 2021
+ * **May 18, 2021**
    * App version 1.2.9 published
      * Updated *active_users* metric that runs at the start of the background check, and if the app is opened manually
      * *daily_background_check_started* and *daily_background_check_successfully_completed* metrics initially added for iOS devices
- * May 17, 2021
+ * **May 17, 2021**
    * Repository license updated
- * April 26, 2021
+ * **April 26, 2021**
    * *daily_background_check_started* and *daily_background_check_successfully_completed* metrics added to this data repository
- * April 23, 2021
+ * **April 23, 2021**
    * Semantic app version numbers are displayed in this repository, instead of build numbers
- * April 22, 2021
+ * **April 22, 2021**
    * App version 1.2.8 published
      * Additional reliability improvements for in-app metrics on Android devices
- * April 21, 2021
+ * **April 21, 2021**
    * Downloads and cumulative downloads are added to this repository
- * April 15, 2021
+ * **April 15, 2021**
    * Server-side OTK metrics are added to this repository
- * April 9, 2021
+ * **April 9, 2021**
    * App version 1.2.7 published
      * Attempted fixes for *on_off_ac* (on/off feature metric)
      * Improved internal state handling
- * April 6, 2021
+ * **April 6, 2021**
    * App version 1.2.6 published
      * Additional reliability improvements for in-app metrics
      * Fixes for *exposed* metric handling (exposure notifications received)
@@ -312,26 +312,26 @@ Changes to reported metrics in this repository typically appear several days aft
        * With this change, someone could now receive an exposure notification even if their app was already in the "exposed state". That was not possible before this change.
        * This expanded the in-app "exposure notifications sent" metric to *also* include devices "changing" from "exposed state" to "exposed state" (eg. receiving a notification while already in an exposed state).
        * We would expect the number of notifications sent to increase somewhat as a result of adding the multiple exposures feature. However, the change did not necessarily cause the increase, as it could also be attributed to other factors.
- * March 30, 2021
+ * **March 30, 2021**
    * App version 1.2.5 published
      * Reliability improvements for in-app metrics
- * March 25, 2021
+ * **March 25, 2021**
    * App version 1.2.4 published
      * Fixes for *otk* metric handling (OTKs entered)
      * *daily_background_check_started* and *daily_background_check_successfully_completed* metrics added for Android devices
- * March 23, 2021
+ * **March 23, 2021**
    * Daily/weekly/monthly time period subdirectories are generated, to make it easier to access data by time period
- * March 22, 2021
+ * **March 22, 2021**
    * Additional CSV files are generated
- * March 19, 2021
+ * **March 19, 2021**
    * This data repository is created; initial test CSV files are generated
- * March 4, 2021
+ * **March 4, 2021**
    * App version 1.2.2 published
      * Further updates to app and server communications
- * February 26, 2021
+ * **February 26, 2021**
    * App version 1.2.1 published
      * Improving how often the app communicates metric events to the server
- * February 9, 2021
+ * **February 9, 2021**
    * App version 1.2.0 published
      * Initial launch of [in-app metrics](https://www.canada.ca/en/health-canada/news/2021/02/covid-alert-updated-to-help-evaluate-its-effectiveness-in-reducing-the-spread-of-covid-19.html)
      * Added one-time notification to inform people of new metrics being collected and changes to the [privacy notice](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert/privacy-policy.html)
