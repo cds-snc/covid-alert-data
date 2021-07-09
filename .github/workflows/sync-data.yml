@@ -1,0 +1,31 @@
+name: Sync Metrics
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *"  # at 06:17 UTC (just before the hour to avoid the rush on GH runners)
+
+jobs:
+  update_metrics:
+    runs-on: ubuntu-latest
+    steps:
+
+    - name: Configure AWS credentials
+      id: aw
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.PRODUCTION_AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.PRODUCTION_AWS_SECRET_ACCESS_KEY }}
+        aws-region: ca-central-1
+
+    - uses: actions/checkout@v2
+
+    - name: download masked metrics
+      run : aws s3 sync s3://masked-metrics-tdvfd-production/ . --region=ca-central-1
+
+    - name: Commit Metrics
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "Covid Alert Bot"
+        git add -A
+        git commit -m "Adding metrics on `date '+%Y-%m-%d'`" -a
+        git push https://${GITHUB_ACTOR}:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git HEAD:main
