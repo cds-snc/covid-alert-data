@@ -93,7 +93,7 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2021-06-13,enabled-active,granted-autorise,7557
 2021-06-13,enabled-active,denied-refuse,<20
 2021-06-13,disabled-desactive,blocked-bloque,335
-2021-06-13,disabled-desactive,granted-autorise,5599
+2021-06-13,disabled-desactive,granted-autorise,5601
 2021-06-13,disabled-desactive,denied-refuse,<20
 2021-06-20,enabled-active,blocked-bloque,205
 2021-06-20,enabled-active,granted-autorise,7462
