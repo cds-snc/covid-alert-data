@@ -408,7 +408,7 @@ date,region,os-se,count-nombre
 2021-06-06,NU,android,<20
 2021-06-06,NU,ios,<20
 2021-06-06,ON,android,405
-2021-06-06,ON,ios,648
+2021-06-06,ON,ios,651
 2021-06-06,PE,android,<20
 2021-06-06,PE,ios,<20
 2021-06-06,QC,android,<20
@@ -564,7 +564,7 @@ date,region,os-se,count-nombre
 2021-07-18,BC,android,<20
 2021-07-18,BC,ios,<20
 2021-07-18,MB,android,<20
-2021-07-18,MB,ios,64
+2021-07-18,MB,ios,68
 2021-07-18,NB,android,<20
 2021-07-18,NB,ios,<20
 2021-07-18,NL,android,<20
