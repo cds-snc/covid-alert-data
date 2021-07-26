@@ -30,7 +30,7 @@ The metrics are reported over three time periods: Daily, Weekly and Monthly. **D
 
 In-app metrics were added to the COVID Alert service on February 25, 2021. Prior to that time there were no in-app numbers reported. There have been subsequent releases to the app that added new metrics or corrected bugs in previously-introduced metrics. Some metrics will have shorter periods of time for which they have data. See the [Changelog](https://github.com/cds-snc/covid-alert-data#changelog) for more details.
 
-The CSV files use a structure based on the [Tidy data standard](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html#tidy-data).
+The CSV files use a structure based on the [Tidy data standard](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html#tidy-data). These files are automatically updated each day by the [COVID Alert Metrics ETL repository](https://github.com/cds-snc/covid-alert-metrics-etl).
 
 ## Context and Limitations
 
@@ -367,7 +367,7 @@ Les mesures de performance sont recueillies sur trois périodes : Quotidiennes,
 
 Des mesures de performance intégrées à l’application ont été ajoutées au service d’Alerte COVID en février 2021. Avant la mise en service de cette fonction, aucune donnée n’était recueillie par l’application. Des versions subséquentes de l’application ont ajouté de nouvelles mesures de performance ou corrigé des bogues dans les mesures introduites dans une version précédente. Les données pour certaines mesures de performance auront donc été recueillies pour des périodes plus courtes. Pour en savoir plus, consulter le [Journal des modifications](#journal-des-modifications).
 
-Les fichiers CSV utilisent une structure basée sur la [norme de données Tidy](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html#tidy-data).
+Les fichiers CSV utilisent une structure basée sur la [norme de données Tidy](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html#tidy-data). Ces fichiers sont mis à jour quotidiennement par le [référentiel ETL des mesures de performance d’Alerte COVID](https://github.com/cds-snc/covid-alert-metrics-etl#extraction-transformation-et-chargement-etl-des-mesures-de-performance-dalerte-covid).
 
 ## Contexte et contraintes
 
