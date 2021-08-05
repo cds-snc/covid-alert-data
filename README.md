@@ -47,7 +47,7 @@ The CSV files use a structure based on the [Tidy data standard](https://cran.r-p
  * The "one-time keys entered" total [listed on Canada.ca](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html#a6), which originates from server-side OTK data, is slightly higher than the server-side otk_claimed data in the metrics data repository. This is expected, and is due to server-side metric logging by date being rolled out several months after the app was launched, in early October 3, 2020.
  * **COVID Alert is one part of Canada’s COVID-19 response.**
    * For broader social and public health data, see the [Public Health Agency of Canada’s COVID-19 data visualization website](https://health-infobase.canada.ca/covid-19/), which includes source data in CSV format, or provincial and territorial public health websites.
-   * For data on mobile phone adoption in Canada, see Statistics Canada’s [2018 data on smartphone use](https://health-infobase.canada.ca/covid-19/).
+   * For data on mobile phone adoption in Canada, see Statistics Canada’s [2018 data on smartphone use](https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=2210011501&request_locale=en).
 
 
 ## Quick Links
