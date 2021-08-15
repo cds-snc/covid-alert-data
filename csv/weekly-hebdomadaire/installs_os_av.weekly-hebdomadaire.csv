@@ -181,7 +181,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-04-11,android,1.2.1,49
 2021-04-11,android,1.2.2,73
 2021-04-11,android,1.2.3,340
-2021-04-11,android,1.2.4,4646
+2021-04-11,android,1.2.4,4647
 2021-04-11,android,1.2.5,3935
 2021-04-11,android,1.2.6,9973
 2021-04-11,android,1.2.7,148
@@ -327,7 +327,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-05-16,android,1.2.0,31
 2021-05-16,android,1.2.1,<20
 2021-05-16,android,1.2.2,<20
-2021-05-16,android,1.2.3,58
+2021-05-16,android,1.2.3,59
 2021-05-16,android,1.2.4,50
 2021-05-16,android,1.2.5,<20
 2021-05-16,android,1.2.6,29
@@ -630,7 +630,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-07-18,android,1.4.3,97
 2021-07-18,android,1.4.4,98
 2021-07-18,android,1.4.5,2486
-2021-07-18,android,1.4.6,4586
+2021-07-18,android,1.4.6,4587
 2021-07-18,android,1.5.2,<20
 2021-07-18,android,1.5.3,<20
 2021-07-18,ios,1.2.0,34
@@ -648,6 +648,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-07-18,ios,1.4.5,4515
 2021-07-18,ios,1.4.6,11659
 2021-07-18,ios,1.5.2,<20
+2021-07-18,ios,1.5.3,<20
 2021-07-25,android,1.2.0,<20
 2021-07-25,android,1.2.1,<20
 2021-07-25,android,1.2.2,<20
@@ -657,7 +658,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-07-25,android,1.2.6,<20
 2021-07-25,android,1.2.7,<20
 2021-07-25,android,1.2.8,30
-2021-07-25,android,1.2.9,52
+2021-07-25,android,1.2.9,53
 2021-07-25,android,1.4.2,23
 2021-07-25,android,1.4.3,52
 2021-07-25,android,1.4.4,36
@@ -728,7 +729,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-08-08,android,1.4.3,47
 2021-08-08,android,1.4.4,27
 2021-08-08,android,1.4.5,43
-2021-08-08,android,1.4.6,4955
+2021-08-08,android,1.4.6,4956
 2021-08-08,android,1.5.2,2735
 2021-08-08,android,1.5.3,<20
 2021-08-08,ios,1.2.0,44
@@ -745,6 +746,6 @@ date,os-se,app_version-version_appli,count-nombre
 2021-08-08,ios,1.4.4,97
 2021-08-08,ios,1.4.5,63
 2021-08-08,ios,1.4.6,10262
-2021-08-08,ios,1.5.2,6798
-2021-08-08,ios,1.5.3,<20
+2021-08-08,ios,1.5.2,6799
+2021-08-08,ios,1.5.3,20
 2021-08-08,ios,2.0.0,<20
