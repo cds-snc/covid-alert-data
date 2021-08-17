@@ -6,13 +6,13 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2021-02-28,disabled-desactive,granted-autorise,6193
 2021-02-28,disabled-desactive,denied-refuse,<20
 2021-03-31,enabled-active,blocked-bloque,2659
-2021-03-31,enabled-active,granted-autorise,123719
+2021-03-31,enabled-active,granted-autorise,123720
 2021-03-31,enabled-active,denied-refuse,76
 2021-03-31,disabled-desactive,blocked-bloque,2635
 2021-03-31,disabled-desactive,granted-autorise,25729
 2021-03-31,disabled-desactive,denied-refuse,38
 2021-04-30,enabled-active,blocked-bloque,2735
-2021-04-30,enabled-active,granted-autorise,122191
+2021-04-30,enabled-active,granted-autorise,122192
 2021-04-30,enabled-active,denied-refuse,76
 2021-04-30,disabled-desactive,blocked-bloque,2913
 2021-04-30,disabled-desactive,granted-autorise,25127
@@ -33,5 +33,5 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2021-07-31,enabled-active,granted-autorise,31059
 2021-07-31,enabled-active,denied-refuse,<20
 2021-07-31,disabled-desactive,blocked-bloque,1673
-2021-07-31,disabled-desactive,granted-autorise,25321
+2021-07-31,disabled-desactive,granted-autorise,25323
 2021-07-31,disabled-desactive,denied-refuse,<20
