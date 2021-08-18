@@ -44,7 +44,7 @@ date,region,date_provided-date_fournie,count-nombre
 2021-04-30,NU,date,<20
 2021-04-30,NU,no_date-date_so,<20
 2021-04-30,ON,date,3380
-2021-04-30,ON,no_date-date_so,492
+2021-04-30,ON,no_date-date_so,493
 2021-04-30,PE,date,<20
 2021-04-30,PE,no_date-date_so,<20
 2021-04-30,QC,date,170
@@ -59,7 +59,7 @@ date,region,date_provided-date_fournie,count-nombre
 2021-05-31,AB,no_date-date_so,<20
 2021-05-31,BC,date,<20
 2021-05-31,BC,no_date-date_so,<20
-2021-05-31,MB,date,374
+2021-05-31,MB,date,375
 2021-05-31,MB,no_date-date_so,32
 2021-05-31,NB,date,<20
 2021-05-31,NB,no_date-date_so,<20

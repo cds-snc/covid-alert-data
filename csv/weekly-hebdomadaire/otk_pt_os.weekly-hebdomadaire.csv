@@ -71,7 +71,7 @@ date,region,os-se,count-nombre
 2021-04-11,NS,ios,<20
 2021-04-11,NU,android,<20
 2021-04-11,NU,ios,<20
-2021-04-11,ON,android,383
+2021-04-11,ON,android,384
 2021-04-11,ON,ios,660
 2021-04-11,PE,android,<20
 2021-04-11,PE,ios,<20
@@ -199,7 +199,7 @@ date,region,os-se,count-nombre
 2021-05-16,AB,ios,<20
 2021-05-16,BC,android,<20
 2021-05-16,BC,ios,<20
-2021-05-16,MB,android,28
+2021-05-16,MB,android,29
 2021-05-16,MB,ios,88
 2021-05-16,NB,android,<20
 2021-05-16,NB,ios,<20
