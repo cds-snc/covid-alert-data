@@ -26,7 +26,7 @@ date,region,os-se,count-nombre
 2021-02-28,YT,android,48
 2021-02-28,YT,ios,293
 2021-02-28,npts-ptso,android,9297
-2021-02-28,npts-ptso,ios,65479
+2021-02-28,npts-ptso,ios,65480
 2021-03-31,AB,android,11829
 2021-03-31,AB,ios,75108
 2021-03-31,BC,android,23722
@@ -60,7 +60,7 @@ date,region,os-se,count-nombre
 2021-04-30,BC,android,25769
 2021-04-30,BC,ios,151805
 2021-04-30,MB,android,23683
-2021-04-30,MB,ios,102575
+2021-04-30,MB,ios,102576
 2021-04-30,NB,android,23223
 2021-04-30,NB,ios,59830
 2021-04-30,NL,android,25377
@@ -99,18 +99,18 @@ date,region,os-se,count-nombre
 2021-05-31,NS,ios,83810
 2021-05-31,NU,android,288
 2021-05-31,NU,ios,477
-2021-05-31,ON,android,440211
+2021-05-31,ON,android,440212
 2021-05-31,ON,ios,955877
 2021-05-31,PE,android,5631
 2021-05-31,PE,ios,13316
-2021-05-31,QC,android,230512
+2021-05-31,QC,android,230513
 2021-05-31,QC,ios,421606
 2021-05-31,SK,android,21732
 2021-05-31,SK,ios,53434
 2021-05-31,YT,android,255
 2021-05-31,YT,ios,763
 2021-05-31,npts-ptso,android,43320
-2021-05-31,npts-ptso,ios,186096
+2021-05-31,npts-ptso,ios,186097
 2021-06-30,AB,android,20868
 2021-06-30,AB,ios,66977
 2021-06-30,BC,android,38972
@@ -127,7 +127,7 @@ date,region,os-se,count-nombre
 2021-06-30,NS,ios,91173
 2021-06-30,NU,android,462
 2021-06-30,NU,ios,526
-2021-06-30,ON,android,581186
+2021-06-30,ON,android,581191
 2021-06-30,ON,ios,1029426
 2021-06-30,PE,android,7978
 2021-06-30,PE,ios,14512
@@ -137,7 +137,7 @@ date,region,os-se,count-nombre
 2021-06-30,SK,ios,56860
 2021-06-30,YT,android,400
 2021-06-30,YT,ios,861
-2021-06-30,npts-ptso,android,91026
+2021-06-30,npts-ptso,android,91027
 2021-06-30,npts-ptso,ios,213264
 2021-07-31,AB,android,18055
 2021-07-31,AB,ios,61472
@@ -155,7 +155,7 @@ date,region,os-se,count-nombre
 2021-07-31,NS,ios,87726
 2021-07-31,NU,android,497
 2021-07-31,NU,ios,549
-2021-07-31,ON,android,522818
+2021-07-31,ON,android,522828
 2021-07-31,ON,ios,986724
 2021-07-31,PE,android,7584
 2021-07-31,PE,ios,14031
@@ -165,5 +165,5 @@ date,region,os-se,count-nombre
 2021-07-31,SK,ios,53224
 2021-07-31,YT,android,442
 2021-07-31,YT,ios,881
-2021-07-31,npts-ptso,android,118986
+2021-07-31,npts-ptso,android,118988
 2021-07-31,npts-ptso,ios,268753
