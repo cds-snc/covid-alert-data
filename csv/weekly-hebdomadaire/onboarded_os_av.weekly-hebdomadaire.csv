@@ -307,6 +307,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-05-23,android,1.4.3,<20
 2021-05-23,android,1.4.4,<20
 2021-05-23,android,1.4.6,<20
+2021-05-23,android,1.5.3,<20
 2021-05-23,ios,1.2.0,30
 2021-05-23,ios,1.2.1,<20
 2021-05-23,ios,1.2.2,<20
@@ -410,6 +411,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-06-13,ios,1.4.1,7908
 2021-06-13,ios,1.4.4,<20
 2021-06-13,ios,1.4.5,<20
+2021-06-13,ios,1.5.4,<20
 2021-06-13,ios,2.0.0,<20
 2021-06-20,android,1.2.0,<20
 2021-06-20,android,1.2.1,<20
@@ -471,6 +473,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-06-27,ios,1.4.4,5740
 2021-06-27,ios,1.4.6,<20
 2021-06-27,ios,1.5.3,<20
+2021-06-27,ios,1.5.4,<20
 2021-06-27,ios,2.0.0,<20
 2021-07-04,android,1.2.0,<20
 2021-07-04,android,1.2.1,<20
@@ -681,7 +684,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-08-15,android,1.4.5,<20
 2021-08-15,android,1.4.6,173
 2021-08-15,android,1.5.2,1538
-2021-08-15,android,1.5.3,4348
+2021-08-15,android,1.5.3,4351
 2021-08-15,ios,1.2.0,<20
 2021-08-15,ios,1.2.1,<20
 2021-08-15,ios,1.2.2,<20
@@ -714,7 +717,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-08-22,android,1.4.5,<20
 2021-08-22,android,1.4.6,90
 2021-08-22,android,1.5.2,34
-2021-08-22,android,1.5.3,6106
+2021-08-22,android,1.5.3,6107
 2021-08-22,ios,1.2.0,<20
 2021-08-22,ios,1.2.1,<20
 2021-08-22,ios,1.2.2,<20
@@ -748,7 +751,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-08-29,android,1.4.5,<20
 2021-08-29,android,1.4.6,58
 2021-08-29,android,1.5.2,<20
-2021-08-29,android,1.5.3,8258
+2021-08-29,android,1.5.3,8259
 2021-08-29,ios,1.2.0,<20
 2021-08-29,ios,1.2.1,<20
 2021-08-29,ios,1.2.2,<20
@@ -782,7 +785,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-09-05,android,1.4.5,<20
 2021-09-05,android,1.4.6,69
 2021-09-05,android,1.5.2,<20
-2021-09-05,android,1.5.3,10054
+2021-09-05,android,1.5.3,10061
 2021-09-05,ios,1.2.0,22
 2021-09-05,ios,1.2.1,<20
 2021-09-05,ios,1.2.2,<20
@@ -799,4 +802,4 @@ date,os-se,app_version-version_appli,count-nombre
 2021-09-05,ios,1.4.6,90
 2021-09-05,ios,1.5.2,24
 2021-09-05,ios,1.5.3,6292
-2021-09-05,ios,1.5.4,7514
+2021-09-05,ios,1.5.4,7515
