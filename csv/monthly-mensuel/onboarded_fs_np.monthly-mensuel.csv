@@ -32,11 +32,11 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2021-07-31,enabled-active,blocked-bloque,981
 2021-07-31,enabled-active,granted-autorise,31071
 2021-07-31,enabled-active,denied-refuse,<20
-2021-07-31,disabled-desactive,blocked-bloque,1677
+2021-07-31,disabled-desactive,blocked-bloque,1678
 2021-07-31,disabled-desactive,granted-autorise,25343
 2021-07-31,disabled-desactive,denied-refuse,<20
 2021-08-31,enabled-active,blocked-bloque,1315
-2021-08-31,enabled-active,granted-autorise,44122
+2021-08-31,enabled-active,granted-autorise,44123
 2021-08-31,enabled-active,denied-refuse,32
 2021-08-31,disabled-desactive,blocked-bloque,1992
 2021-08-31,disabled-desactive,granted-autorise,32296
