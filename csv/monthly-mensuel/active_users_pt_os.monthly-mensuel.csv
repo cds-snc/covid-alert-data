@@ -39,7 +39,7 @@ date,region,os-se,count-nombre
 2021-03-31,NL,ios,93312
 2021-03-31,NT,android,473
 2021-03-31,NT,ios,1953
-2021-03-31,NS,android,26899
+2021-03-31,NS,android,26900
 2021-03-31,NS,ios,86625
 2021-03-31,NU,android,160
 2021-03-31,NU,ios,467
@@ -81,7 +81,7 @@ date,region,os-se,count-nombre
 2021-04-30,SK,ios,61770
 2021-04-30,YT,android,209
 2021-04-30,YT,ios,891
-2021-04-30,npts-ptso,android,36060
+2021-04-30,npts-ptso,android,36061
 2021-04-30,npts-ptso,ios,220693
 2021-05-31,AB,android,15080
 2021-05-31,AB,ios,63828
@@ -103,7 +103,7 @@ date,region,os-se,count-nombre
 2021-05-31,ON,ios,955878
 2021-05-31,PE,android,5631
 2021-05-31,PE,ios,13316
-2021-05-31,QC,android,230523
+2021-05-31,QC,android,230524
 2021-05-31,QC,ios,421607
 2021-05-31,SK,android,21732
 2021-05-31,SK,ios,53434
@@ -127,7 +127,7 @@ date,region,os-se,count-nombre
 2021-06-30,NS,ios,91173
 2021-06-30,NU,android,462
 2021-06-30,NU,ios,526
-2021-06-30,ON,android,581224
+2021-06-30,ON,android,581225
 2021-06-30,ON,ios,1029426
 2021-06-30,PE,android,7978
 2021-06-30,PE,ios,14512
@@ -155,7 +155,7 @@ date,region,os-se,count-nombre
 2021-07-31,NS,ios,87726
 2021-07-31,NU,android,497
 2021-07-31,NU,ios,549
-2021-07-31,ON,android,522882
+2021-07-31,ON,android,522885
 2021-07-31,ON,ios,986724
 2021-07-31,PE,android,7584
 2021-07-31,PE,ios,14031
@@ -175,7 +175,7 @@ date,region,os-se,count-nombre
 2021-08-31,MB,ios,84375
 2021-08-31,NB,android,30485
 2021-08-31,NB,ios,49991
-2021-08-31,NL,android,34328
+2021-08-31,NL,android,34329
 2021-08-31,NL,ios,79042
 2021-08-31,NT,android,1229
 2021-08-31,NT,ios,2125
@@ -183,7 +183,7 @@ date,region,os-se,count-nombre
 2021-08-31,NS,ios,79908
 2021-08-31,NU,android,485
 2021-08-31,NU,ios,532
-2021-08-31,ON,android,453309
+2021-08-31,ON,android,453322
 2021-08-31,ON,ios,907209
 2021-08-31,PE,android,6698
 2021-08-31,PE,ios,12951
@@ -193,5 +193,5 @@ date,region,os-se,count-nombre
 2021-08-31,SK,ios,47905
 2021-08-31,YT,android,411
 2021-08-31,YT,ios,824
-2021-08-31,npts-ptso,android,114504
-2021-08-31,npts-ptso,ios,272246
+2021-08-31,npts-ptso,android,114505
+2021-08-31,npts-ptso,ios,272247
