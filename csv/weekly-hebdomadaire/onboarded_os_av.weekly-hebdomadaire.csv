@@ -20,7 +20,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-03-07,android,1.2.0,499
 2021-03-07,android,1.2.1,10569
 2021-03-07,android,1.2.2,3838
-2021-03-07,android,1.2.3,58
+2021-03-07,android,1.2.3,59
 2021-03-07,android,1.2.4,<20
 2021-03-07,android,1.2.5,<20
 2021-03-07,android,1.2.6,<20
@@ -66,7 +66,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-03-14,ios,1.5.4,<20
 2021-03-21,android,1.2.0,122
 2021-03-21,android,1.2.1,108
-2021-03-21,android,1.2.2,291
+2021-03-21,android,1.2.2,292
 2021-03-21,android,1.2.3,14678
 2021-03-21,android,1.2.4,46
 2021-03-21,android,1.2.5,<20
@@ -810,7 +810,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-09-05,ios,1.4.6,90
 2021-09-05,ios,1.5.2,24
 2021-09-05,ios,1.5.3,6295
-2021-09-05,ios,1.5.4,7519
+2021-09-05,ios,1.5.4,7520
 2021-09-12,android,1.2.0,<20
 2021-09-12,android,1.2.1,<20
 2021-09-12,android,1.2.2,<20
@@ -826,7 +826,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-09-12,android,1.4.5,<20
 2021-09-12,android,1.4.6,34
 2021-09-12,android,1.5.2,<20
-2021-09-12,android,1.5.3,8517
+2021-09-12,android,1.5.3,8519
 2021-09-12,ios,1.2.0,25
 2021-09-12,ios,1.2.1,<20
 2021-09-12,ios,1.2.2,<20
@@ -858,7 +858,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-09-19,android,1.4.5,<20
 2021-09-19,android,1.4.6,40
 2021-09-19,android,1.5.2,<20
-2021-09-19,android,1.5.3,8681
+2021-09-19,android,1.5.3,8683
 2021-09-19,ios,1.2.0,22
 2021-09-19,ios,1.2.1,<20
 2021-09-19,ios,1.2.2,<20
@@ -891,7 +891,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-09-26,android,1.4.5,<20
 2021-09-26,android,1.4.6,21
 2021-09-26,android,1.5.2,<20
-2021-09-26,android,1.5.3,8651
+2021-09-26,android,1.5.3,8688
 2021-09-26,ios,1.2.0,<20
 2021-09-26,ios,1.2.1,<20
 2021-09-26,ios,1.2.2,<20
@@ -907,5 +907,5 @@ date,os-se,app_version-version_appli,count-nombre
 2021-09-26,ios,1.4.5,<20
 2021-09-26,ios,1.4.6,47
 2021-09-26,ios,1.5.2,<20
-2021-09-26,ios,1.5.3,103
-2021-09-26,ios,1.5.4,15929
+2021-09-26,ios,1.5.3,104
+2021-09-26,ios,1.5.4,15953
