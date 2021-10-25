@@ -1,4 +1,6 @@
 date,exposure_status-etat_verification,count-nombre
+2021-03-27,exposed-expose,<20
+2021-03-27,monitoring-surveillance,<20
 2021-03-28,exposed-expose,<20
 2021-03-28,monitoring-surveillance,<20
 2021-03-29,exposed-expose,<20
@@ -418,4 +420,6 @@ date,exposure_status-etat_verification,count-nombre
 2021-10-22,exposed-expose,<20
 2021-10-22,monitoring-surveillance,<20
 2021-10-23,exposed-expose,<20
-2021-10-23,monitoring-surveillance,<20
+2021-10-23,monitoring-surveillance,24
+2021-10-24,exposed-expose,<20
+2021-10-24,monitoring-surveillance,<20
