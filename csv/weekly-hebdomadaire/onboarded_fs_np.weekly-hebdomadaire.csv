@@ -6,7 +6,7 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2021-02-28,disabled-desactive,granted-autorise,6193
 2021-02-28,disabled-desactive,denied-refuse,<20
 2021-03-07,enabled-active,blocked-bloque,645
-2021-03-07,enabled-active,granted-autorise,27864
+2021-03-07,enabled-active,granted-autorise,27865
 2021-03-07,enabled-active,denied-refuse,<20
 2021-03-07,disabled-desactive,blocked-bloque,671
 2021-03-07,disabled-desactive,granted-autorise,6773
@@ -138,7 +138,7 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2021-08-01,disabled-desactive,granted-autorise,5656
 2021-08-01,disabled-desactive,denied-refuse,<20
 2021-08-08,enabled-active,blocked-bloque,272
-2021-08-08,enabled-active,granted-autorise,8207
+2021-08-08,enabled-active,granted-autorise,8208
 2021-08-08,enabled-active,denied-refuse,<20
 2021-08-08,disabled-desactive,blocked-bloque,415
 2021-08-08,disabled-desactive,granted-autorise,5977
@@ -228,7 +228,7 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2021-11-14,disabled-desactive,granted-autorise,4431
 2021-11-14,disabled-desactive,denied-refuse,<20
 2021-11-21,enabled-active,blocked-bloque,354
-2021-11-21,enabled-active,granted-autorise,10536
+2021-11-21,enabled-active,granted-autorise,10537
 2021-11-21,enabled-active,denied-refuse,<20
 2021-11-21,disabled-desactive,blocked-bloque,306
 2021-11-21,disabled-desactive,granted-autorise,4644
@@ -240,8 +240,8 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2021-11-28,disabled-desactive,granted-autorise,5040
 2021-11-28,disabled-desactive,denied-refuse,<20
 2021-12-05,enabled-active,blocked-bloque,408
-2021-12-05,enabled-active,granted-autorise,14119
+2021-12-05,enabled-active,granted-autorise,14122
 2021-12-05,enabled-active,denied-refuse,<20
 2021-12-05,disabled-desactive,blocked-bloque,358
-2021-12-05,disabled-desactive,granted-autorise,5796
+2021-12-05,disabled-desactive,granted-autorise,5798
 2021-12-05,disabled-desactive,denied-refuse,<20
