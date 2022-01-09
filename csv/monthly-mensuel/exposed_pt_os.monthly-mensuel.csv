@@ -295,11 +295,11 @@ date,region,os-se,count-nombre
 2021-12-31,NS,ios,585
 2021-12-31,NU,android,<20
 2021-12-31,NU,ios,<20
-2021-12-31,ON,android,47904
-2021-12-31,ON,ios,79325
+2021-12-31,ON,android,47910
+2021-12-31,ON,ios,79326
 2021-12-31,PE,android,21
 2021-12-31,PE,ios,59
-2021-12-31,QC,android,5909
+2021-12-31,QC,android,5916
 2021-12-31,QC,ios,8196
 2021-12-31,SK,android,238
 2021-12-31,SK,ios,351
