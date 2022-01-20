@@ -302,7 +302,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-11-30,android,1.4.5,<20
 2021-11-30,android,1.4.6,40
 2021-11-30,android,1.5.2,<20
-2021-11-30,android,1.5.3,26480
+2021-11-30,android,1.5.3,26482
 2021-11-30,ios,1.2.0,34
 2021-11-30,ios,1.2.1,<20
 2021-11-30,ios,1.2.2,<20
@@ -336,7 +336,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-12-31,android,1.4.5,<20
 2021-12-31,android,1.4.6,70
 2021-12-31,android,1.5.2,<20
-2021-12-31,android,1.5.3,57922
+2021-12-31,android,1.5.3,57927
 2021-12-31,ios,1.2.0,76
 2021-12-31,ios,1.2.1,33
 2021-12-31,ios,1.2.2,34
@@ -353,4 +353,4 @@ date,os-se,app_version-version_appli,count-nombre
 2021-12-31,ios,1.4.6,157
 2021-12-31,ios,1.5.2,27
 2021-12-31,ios,1.5.3,202
-2021-12-31,ios,1.5.4,123820
+2021-12-31,ios,1.5.4,123822
