@@ -1219,7 +1219,7 @@ date,region,os-se,count-nombre
 2021-12-26,NS,ios,127
 2021-12-26,NU,android,<20
 2021-12-26,NU,ios,<20
-2021-12-26,ON,android,20315
+2021-12-26,ON,android,20320
 2021-12-26,ON,ios,33497
 2021-12-26,PE,android,<20
 2021-12-26,PE,ios,<20
@@ -1247,7 +1247,7 @@ date,region,os-se,count-nombre
 2022-01-02,NS,ios,149
 2022-01-02,NU,android,<20
 2022-01-02,NU,ios,<20
-2022-01-02,ON,android,21045
+2022-01-02,ON,android,21065
 2022-01-02,ON,ios,35085
 2022-01-02,PE,android,<20
 2022-01-02,PE,ios,31
@@ -1303,7 +1303,7 @@ date,region,os-se,count-nombre
 2022-01-16,NS,ios,48
 2022-01-16,NU,android,<20
 2022-01-16,NU,ios,<20
-2022-01-16,ON,android,6675
+2022-01-16,ON,android,6677
 2022-01-16,ON,ios,8950
 2022-01-16,PE,android,<20
 2022-01-16,PE,ios,<20
@@ -1331,7 +1331,7 @@ date,region,os-se,count-nombre
 2022-01-23,NS,ios,<20
 2022-01-23,NU,android,<20
 2022-01-23,NU,ios,<20
-2022-01-23,ON,android,3380
+2022-01-23,ON,android,3389
 2022-01-23,ON,ios,4423
 2022-01-23,PE,android,<20
 2022-01-23,PE,ios,<20
