@@ -1331,7 +1331,7 @@ date,region,os-se,count-nombre
 2022-01-23,NS,ios,<20
 2022-01-23,NU,android,<20
 2022-01-23,NU,ios,<20
-2022-01-23,ON,android,3401
+2022-01-23,ON,android,3402
 2022-01-23,ON,ios,4423
 2022-01-23,PE,android,<20
 2022-01-23,PE,ios,<20
@@ -1359,8 +1359,8 @@ date,region,os-se,count-nombre
 2022-01-30,NS,ios,<20
 2022-01-30,NU,android,<20
 2022-01-30,NU,ios,<20
-2022-01-30,ON,android,1989
-2022-01-30,ON,ios,3017
+2022-01-30,ON,android,1999
+2022-01-30,ON,ios,3018
 2022-01-30,PE,android,<20
 2022-01-30,PE,ios,<20
 2022-01-30,QC,android,155
