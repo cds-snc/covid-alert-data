@@ -1108,7 +1108,7 @@ date,region,exposure_status-etat_verification,count-nombre
 2021-12-26,NU,exposed-expose,<20
 2021-12-26,NU,monitoring-surveillance,<20
 2021-12-26,ON,exposed-expose,40430
-2021-12-26,ON,monitoring-surveillance,13314
+2021-12-26,ON,monitoring-surveillance,13316
 2021-12-26,PE,exposed-expose,<20
 2021-12-26,PE,monitoring-surveillance,<20
 2021-12-26,QC,exposed-expose,4372
@@ -1136,7 +1136,7 @@ date,region,exposure_status-etat_verification,count-nombre
 2022-01-02,NU,exposed-expose,<20
 2022-01-02,NU,monitoring-surveillance,<20
 2022-01-02,ON,exposed-expose,42762
-2022-01-02,ON,monitoring-surveillance,13324
+2022-01-02,ON,monitoring-surveillance,13326
 2022-01-02,PE,exposed-expose,32
 2022-01-02,PE,monitoring-surveillance,<20
 2022-01-02,QC,exposed-expose,4252
@@ -1247,8 +1247,8 @@ date,region,exposure_status-etat_verification,count-nombre
 2022-01-30,NS,monitoring-surveillance,<20
 2022-01-30,NU,exposed-expose,<20
 2022-01-30,NU,monitoring-surveillance,<20
-2022-01-30,ON,exposed-expose,3998
-2022-01-30,ON,monitoring-surveillance,1028
+2022-01-30,ON,exposed-expose,3999
+2022-01-30,ON,monitoring-surveillance,1030
 2022-01-30,PE,exposed-expose,<20
 2022-01-30,PE,monitoring-surveillance,<20
 2022-01-30,QC,exposed-expose,196
