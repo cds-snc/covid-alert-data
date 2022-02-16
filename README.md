@@ -272,6 +272,20 @@ Dates below indicate when changes were made to COVID Alert that affect the data 
 
 Changes to reported metrics in this repository typically appear several days after a new app update is published. Users’ phones update to the latest published version over 1-3 days (if automatic updates are enabled), and data begins appearing in this repository the following day.
 
+ * **September 21, 2021**
+    * Update to server-side handling of large metrics packets deployed (Android _active_users_ metrics are affected between September 22 and mid-November due to a known retry issue)
+ * **September 1, 2021**
+    * App version 1.5.4 published
+        * Updates to iOS _daily_background_check_completed_ handling
+* **August 10, 2021**
+    * App version 1.5.3 published
+        * Fix for iOS background check metrics (affecting data from August 6 to August 10, 2021)
+ * **June 29, 2021**
+    * App version 1.4.5 published
+        * Added error handling metrics
+ * **June 22, 2021**
+    * App version 1.4.4 published
+        * Updates to how _active_users_ metrics are sent by iOS devices
  * **June 7, 2021**
    * Fixed a backend processing issue with *otk* CSV files (correcting data from May 19 to June 7, 2021)
  * **June 3, 2021**
@@ -883,6 +897,20 @@ Les dates ci-dessous représentent des modifications apportées à Alerte COVID 
 
 Les modifications apportées aux mesures comprises dans ce référentiel apparaissent généralement plusieurs jours après la publication d’une nouvelle mise à jour de l’application. Les appareils des utilisateurs sont mis à jour vers la dernière version publiée sur une période de 1 à 3 jours (si les mises à jour automatiques sont activées), et les données commencent à apparaître dans ce référentiel le jour suivant.
 
+*   **21 septembre 2021**
+    *   Mise à jour du traitement côté serveur des lots volumineux de métriques déployés (les mesures _active_users_ pour Android seront affectées entre le 22 septembre et la mi-novembre en raison d’un problème connu avec les nouvelles tentatives)
+*   **1<sup>er</sup> septembre 2021**
+    *   Publication de la version 1.5.4 de l’application
+        *   Mises à jour du traitement _daily_background_check_completed _pour iOS
+*   **10 août 2021**
+    *   Publication de la version 1.5.3 de l’application
+        *   Correctif pour les mesures de vérifications en arrière-plan pour iOS (affectant les données du 6 août au 10 août 2021)
+*   **29 juin 2021**
+    *   Publication de la version 1.4.5 de l’application
+        *   Ajout des mesures de la gestion des erreurs
+*   **22 juin 2021**
+    *   Publication de la version 1.4.4 de l’application
+        *   Mises à jour concernant le mode d’envoi des métriques _active_users_ par les appareils iOS
 *   **7 juin 2021**
     *   Correction d’un problème de traitement en arrière-plan avec les fichiers CSV de clés à usage unique (correction des données du 19 mai au 7 juin 2021)
 *   **3 juin 2021**
