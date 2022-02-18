@@ -242,8 +242,8 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2021-12-05,enabled-active,blocked-bloque,409
 2021-12-05,enabled-active,granted-autorise,14146
 2021-12-05,enabled-active,denied-refuse,<20
-2021-12-05,disabled-desactive,blocked-bloque,363
-2021-12-05,disabled-desactive,granted-autorise,5823
+2021-12-05,disabled-desactive,blocked-bloque,364
+2021-12-05,disabled-desactive,granted-autorise,5824
 2021-12-05,disabled-desactive,denied-refuse,<20
 2021-12-12,enabled-active,blocked-bloque,429
 2021-12-12,enabled-active,granted-autorise,15145
@@ -264,7 +264,7 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2021-12-26,disabled-desactive,granted-autorise,14974
 2021-12-26,disabled-desactive,denied-refuse,<20
 2022-01-02,enabled-active,blocked-bloque,1284
-2022-01-02,enabled-active,granted-autorise,42061
+2022-01-02,enabled-active,granted-autorise,42062
 2022-01-02,enabled-active,denied-refuse,26
 2022-01-02,disabled-desactive,blocked-bloque,1024
 2022-01-02,disabled-desactive,granted-autorise,16138
@@ -282,7 +282,7 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2022-01-16,disabled-desactive,granted-autorise,7216
 2022-01-16,disabled-desactive,denied-refuse,<20
 2022-01-23,enabled-active,blocked-bloque,446
-2022-01-23,enabled-active,granted-autorise,11836
+2022-01-23,enabled-active,granted-autorise,11837
 2022-01-23,enabled-active,denied-refuse,<20
 2022-01-23,disabled-desactive,blocked-bloque,475
 2022-01-23,disabled-desactive,granted-autorise,5382
@@ -294,7 +294,7 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2022-01-30,disabled-desactive,granted-autorise,4560
 2022-01-30,disabled-desactive,denied-refuse,<20
 2022-02-06,enabled-active,blocked-bloque,260
-2022-02-06,enabled-active,granted-autorise,8078
+2022-02-06,enabled-active,granted-autorise,8079
 2022-02-06,enabled-active,denied-refuse,<20
 2022-02-06,disabled-desactive,blocked-bloque,251
 2022-02-06,disabled-desactive,granted-autorise,3936
