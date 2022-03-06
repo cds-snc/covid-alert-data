@@ -680,8 +680,10 @@ date,exposure_status-etat_verification,count-nombre
 2022-03-01,exposed-expose,400
 2022-03-01,monitoring-surveillance,112
 2022-03-02,exposed-expose,477
-2022-03-02,monitoring-surveillance,150
-2022-03-03,exposed-expose,510
-2022-03-03,monitoring-surveillance,149
-2022-03-04,exposed-expose,357
-2022-03-04,monitoring-surveillance,98
+2022-03-02,monitoring-surveillance,151
+2022-03-03,exposed-expose,516
+2022-03-03,monitoring-surveillance,154
+2022-03-04,exposed-expose,449
+2022-03-04,monitoring-surveillance,133
+2022-03-05,exposed-expose,321
+2022-03-05,monitoring-surveillance,84
