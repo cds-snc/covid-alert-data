@@ -303,7 +303,7 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2022-02-13,enabled-active,granted-autorise,6611
 2022-02-13,enabled-active,denied-refuse,<20
 2022-02-13,disabled-desactive,blocked-bloque,255
-2022-02-13,disabled-desactive,granted-autorise,3326
+2022-02-13,disabled-desactive,granted-autorise,3327
 2022-02-13,disabled-desactive,denied-refuse,<20
 2022-02-20,enabled-active,blocked-bloque,190
 2022-02-20,enabled-active,granted-autorise,5164
