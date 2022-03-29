@@ -712,7 +712,7 @@ date,exposure_status-etat_verification,count-nombre
 2022-03-17,exposed-expose,737
 2022-03-17,monitoring-surveillance,214
 2022-03-18,exposed-expose,515
-2022-03-18,monitoring-surveillance,163
+2022-03-18,monitoring-surveillance,166
 2022-03-19,exposed-expose,517
 2022-03-19,monitoring-surveillance,186
 2022-03-20,exposed-expose,444
@@ -724,10 +724,12 @@ date,exposure_status-etat_verification,count-nombre
 2022-03-23,exposed-expose,742
 2022-03-23,monitoring-surveillance,289
 2022-03-24,exposed-expose,1281
-2022-03-24,monitoring-surveillance,390
+2022-03-24,monitoring-surveillance,391
 2022-03-25,exposed-expose,965
-2022-03-25,monitoring-surveillance,264
-2022-03-26,exposed-expose,595
-2022-03-26,monitoring-surveillance,186
-2022-03-27,exposed-expose,588
-2022-03-27,monitoring-surveillance,146
+2022-03-25,monitoring-surveillance,266
+2022-03-26,exposed-expose,609
+2022-03-26,monitoring-surveillance,197
+2022-03-27,exposed-expose,692
+2022-03-27,monitoring-surveillance,213
+2022-03-28,exposed-expose,653
+2022-03-28,monitoring-surveillance,152
