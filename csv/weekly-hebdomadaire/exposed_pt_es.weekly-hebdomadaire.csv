@@ -1235,8 +1235,8 @@ date,region,exposure_status-etat_verification,count-nombre
 2022-01-30,AB,monitoring-surveillance,<20
 2022-01-30,BC,exposed-expose,<20
 2022-01-30,BC,monitoring-surveillance,<20
-2022-01-30,MB,exposed-expose,629
-2022-01-30,MB,monitoring-surveillance,149
+2022-01-30,MB,exposed-expose,635
+2022-01-30,MB,monitoring-surveillance,154
 2022-01-30,NB,exposed-expose,<20
 2022-01-30,NB,monitoring-surveillance,<20
 2022-01-30,NL,exposed-expose,<20
@@ -1471,8 +1471,8 @@ date,region,exposure_status-etat_verification,count-nombre
 2022-03-27,NS,monitoring-surveillance,<20
 2022-03-27,NU,exposed-expose,<20
 2022-03-27,NU,monitoring-surveillance,<20
-2022-03-27,ON,exposed-expose,4412
-2022-03-27,ON,monitoring-surveillance,1391
+2022-03-27,ON,exposed-expose,4418
+2022-03-27,ON,monitoring-surveillance,1395
 2022-03-27,PE,exposed-expose,<20
 2022-03-27,PE,monitoring-surveillance,<20
 2022-03-27,QC,exposed-expose,191
