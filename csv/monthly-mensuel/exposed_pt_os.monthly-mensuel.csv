@@ -295,7 +295,7 @@ date,region,os-se,count-nombre
 2021-12-31,NS,ios,585
 2021-12-31,NU,android,<20
 2021-12-31,NU,ios,<20
-2021-12-31,ON,android,48020
+2021-12-31,ON,android,48021
 2021-12-31,ON,ios,79340
 2021-12-31,PE,android,21
 2021-12-31,PE,ios,59
@@ -379,8 +379,8 @@ date,region,os-se,count-nombre
 2022-03-31,NS,ios,40
 2022-03-31,NU,android,<20
 2022-03-31,NU,ios,<20
-2022-03-31,ON,android,7021
-2022-03-31,ON,ios,13457
+2022-03-31,ON,android,7033
+2022-03-31,ON,ios,13461
 2022-03-31,PE,android,<20
 2022-03-31,PE,ios,<20
 2022-03-31,QC,android,329
