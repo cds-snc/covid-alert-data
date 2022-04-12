@@ -1639,8 +1639,8 @@ date,region,os-se,count-nombre
 2022-04-10,NS,ios,26
 2022-04-10,NU,android,<20
 2022-04-10,NU,ios,<20
-2022-04-10,ON,android,2589
-2022-04-10,ON,ios,4890
+2022-04-10,ON,android,2701
+2022-04-10,ON,ios,4916
 2022-04-10,PE,android,<20
 2022-04-10,PE,ios,<20
 2022-04-10,QC,android,34
@@ -1649,5 +1649,5 @@ date,region,os-se,count-nombre
 2022-04-10,SK,ios,<20
 2022-04-10,YT,android,<20
 2022-04-10,YT,ios,<20
-2022-04-10,npts-ptso,android,35
-2022-04-10,npts-ptso,ios,866
+2022-04-10,npts-ptso,android,41
+2022-04-10,npts-ptso,ios,883

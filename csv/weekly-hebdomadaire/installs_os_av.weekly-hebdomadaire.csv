@@ -46,7 +46,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-03-07,android,1.4.5,<20
 2021-03-07,android,1.4.6,20
 2021-03-07,android,1.5.2,<20
-2021-03-07,android,1.5.3,33
+2021-03-07,android,1.5.3,34
 2021-03-07,ios,1.2.0,698
 2021-03-07,ios,1.2.1,21679
 2021-03-07,ios,1.2.2,8522
@@ -599,7 +599,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-07-04,android,1.4.5,92
 2021-07-04,android,1.4.6,42
 2021-07-04,android,1.5.2,<20
-2021-07-04,android,1.5.3,90
+2021-07-04,android,1.5.3,91
 2021-07-04,ios,1.2.0,39
 2021-07-04,ios,1.2.1,<20
 2021-07-04,ios,1.2.2,22
@@ -667,7 +667,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-07-18,android,1.4.5,2487
 2021-07-18,android,1.4.6,4588
 2021-07-18,android,1.5.2,<20
-2021-07-18,android,1.5.3,131
+2021-07-18,android,1.5.3,132
 2021-07-18,ios,1.2.0,34
 2021-07-18,ios,1.2.1,<20
 2021-07-18,ios,1.2.2,28
@@ -1008,7 +1008,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-09-26,android,1.4.5,<20
 2021-09-26,android,1.4.6,45
 2021-09-26,android,1.5.2,<20
-2021-09-26,android,1.5.3,11914
+2021-09-26,android,1.5.3,11915
 2021-09-26,ios,1.2.0,40
 2021-09-26,ios,1.2.1,<20
 2021-09-26,ios,1.2.2,<20
@@ -1243,7 +1243,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-11-14,android,1.4.5,<20
 2021-11-14,android,1.4.6,32
 2021-11-14,android,1.5.2,<20
-2021-11-14,android,1.5.3,8403
+2021-11-14,android,1.5.3,8404
 2021-11-14,ios,1.2.0,24
 2021-11-14,ios,1.2.1,<20
 2021-11-14,ios,1.2.2,<20
@@ -1310,7 +1310,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-11-28,android,1.4.5,<20
 2021-11-28,android,1.4.6,27
 2021-11-28,android,1.5.2,<20
-2021-11-28,android,1.5.3,9115
+2021-11-28,android,1.5.3,9116
 2021-11-28,ios,1.2.0,47
 2021-11-28,ios,1.2.1,<20
 2021-11-28,ios,1.2.2,<20
@@ -1641,7 +1641,7 @@ date,os-se,app_version-version_appli,count-nombre
 2022-02-06,android,1.4.4,<20
 2022-02-06,android,1.4.5,<20
 2022-02-06,android,1.4.6,<20
-2022-02-06,android,1.5.3,7012
+2022-02-06,android,1.5.3,7013
 2022-02-06,ios,1.2.0,<20
 2022-02-06,ios,1.2.1,<20
 2022-02-06,ios,1.2.2,<20
@@ -1674,7 +1674,7 @@ date,os-se,app_version-version_appli,count-nombre
 2022-02-13,android,1.4.5,<20
 2022-02-13,android,1.4.6,<20
 2022-02-13,android,1.5.2,<20
-2022-02-13,android,1.5.3,5992
+2022-02-13,android,1.5.3,5993
 2022-02-13,ios,1.2.0,<20
 2022-02-13,ios,1.2.1,<20
 2022-02-13,ios,1.2.2,<20
@@ -1769,7 +1769,7 @@ date,os-se,app_version-version_appli,count-nombre
 2022-03-06,android,1.4.5,<20
 2022-03-06,android,1.4.6,<20
 2022-03-06,android,1.5.2,<20
-2022-03-06,android,1.5.3,4215
+2022-03-06,android,1.5.3,4216
 2022-03-06,ios,1.2.0,<20
 2022-03-06,ios,1.2.1,<20
 2022-03-06,ios,1.2.2,<20
@@ -1802,7 +1802,7 @@ date,os-se,app_version-version_appli,count-nombre
 2022-03-13,android,1.4.5,<20
 2022-03-13,android,1.4.6,<20
 2022-03-13,android,1.5.2,<20
-2022-03-13,android,1.5.3,4131
+2022-03-13,android,1.5.3,4133
 2022-03-13,ios,1.2.0,<20
 2022-03-13,ios,1.2.1,<20
 2022-03-13,ios,1.2.2,<20
@@ -1866,7 +1866,7 @@ date,os-se,app_version-version_appli,count-nombre
 2022-03-27,android,1.4.5,<20
 2022-03-27,android,1.4.6,<20
 2022-03-27,android,1.5.2,<20
-2022-03-27,android,1.5.3,4171
+2022-03-27,android,1.5.3,4172
 2022-03-27,ios,1.2.0,<20
 2022-03-27,ios,1.2.1,<20
 2022-03-27,ios,1.2.2,<20
@@ -1899,7 +1899,7 @@ date,os-se,app_version-version_appli,count-nombre
 2022-04-03,android,1.4.4,<20
 2022-04-03,android,1.4.5,<20
 2022-04-03,android,1.4.6,<20
-2022-04-03,android,1.5.3,4546
+2022-04-03,android,1.5.3,4547
 2022-04-03,ios,1.2.0,<20
 2022-04-03,ios,1.2.1,<20
 2022-04-03,ios,1.2.2,<20
@@ -1929,7 +1929,7 @@ date,os-se,app_version-version_appli,count-nombre
 2022-04-10,android,1.4.5,<20
 2022-04-10,android,1.4.6,<20
 2022-04-10,android,1.5.2,<20
-2022-04-10,android,1.5.3,4529
+2022-04-10,android,1.5.3,4532
 2022-04-10,ios,1.2.0,<20
 2022-04-10,ios,1.2.1,<20
 2022-04-10,ios,1.2.2,<20
@@ -1946,4 +1946,4 @@ date,os-se,app_version-version_appli,count-nombre
 2022-04-10,ios,1.4.6,<20
 2022-04-10,ios,1.5.2,<20
 2022-04-10,ios,1.5.3,<20
-2022-04-10,ios,1.5.4,10391
+2022-04-10,ios,1.5.4,10394
