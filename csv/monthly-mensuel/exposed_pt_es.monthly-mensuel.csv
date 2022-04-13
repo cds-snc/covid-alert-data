@@ -278,7 +278,7 @@ date,region,exposure_status-etat_verification,count-nombre
 2021-12-31,YT,exposed-expose,<20
 2021-12-31,YT,monitoring-surveillance,<20
 2021-12-31,npts-ptso,exposed-expose,10758
-2021-12-31,npts-ptso,monitoring-surveillance,3933
+2021-12-31,npts-ptso,monitoring-surveillance,3936
 2022-01-31,AB,exposed-expose,59
 2022-01-31,AB,monitoring-surveillance,<20
 2022-01-31,BC,exposed-expose,106
