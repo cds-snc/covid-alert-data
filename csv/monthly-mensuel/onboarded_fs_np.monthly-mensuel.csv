@@ -75,10 +75,10 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2022-02-28,enabled-active,granted-autorise,24321
 2022-02-28,enabled-active,denied-refuse,<20
 2022-02-28,disabled-desactive,blocked-bloque,882
-2022-02-28,disabled-desactive,granted-autorise,12236
+2022-02-28,disabled-desactive,granted-autorise,12237
 2022-02-28,disabled-desactive,denied-refuse,<20
 2022-03-31,enabled-active,blocked-bloque,766
-2022-03-31,enabled-active,granted-autorise,20350
+2022-03-31,enabled-active,granted-autorise,20351
 2022-03-31,enabled-active,denied-refuse,<20
 2022-03-31,disabled-desactive,blocked-bloque,737
 2022-03-31,disabled-desactive,granted-autorise,10250
