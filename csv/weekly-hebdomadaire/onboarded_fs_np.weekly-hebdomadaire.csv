@@ -351,11 +351,11 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2022-04-10,enabled-active,granted-autorise,5593
 2022-04-10,enabled-active,denied-refuse,<20
 2022-04-10,disabled-desactive,blocked-bloque,191
-2022-04-10,disabled-desactive,granted-autorise,2663
+2022-04-10,disabled-desactive,granted-autorise,2664
 2022-04-10,disabled-desactive,denied-refuse,<20
 2022-04-17,enabled-active,blocked-bloque,192
-2022-04-17,enabled-active,granted-autorise,5059
+2022-04-17,enabled-active,granted-autorise,5061
 2022-04-17,enabled-active,denied-refuse,<20
 2022-04-17,disabled-desactive,blocked-bloque,168
-2022-04-17,disabled-desactive,granted-autorise,2495
+2022-04-17,disabled-desactive,granted-autorise,2496
 2022-04-17,disabled-desactive,denied-refuse,<20
