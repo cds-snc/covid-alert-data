@@ -1136,7 +1136,7 @@ date,region,exposure_status-etat_verification,count-nombre
 2022-01-02,NU,exposed-expose,<20
 2022-01-02,NU,monitoring-surveillance,<20
 2022-01-02,ON,exposed-expose,42781
-2022-01-02,ON,monitoring-surveillance,13336
+2022-01-02,ON,monitoring-surveillance,13337
 2022-01-02,PE,exposed-expose,32
 2022-01-02,PE,monitoring-surveillance,<20
 2022-01-02,QC,exposed-expose,4252
@@ -1192,7 +1192,7 @@ date,region,exposure_status-etat_verification,count-nombre
 2022-01-16,NU,exposed-expose,<20
 2022-01-16,NU,monitoring-surveillance,<20
 2022-01-16,ON,exposed-expose,11826
-2022-01-16,ON,monitoring-surveillance,3799
+2022-01-16,ON,monitoring-surveillance,3800
 2022-01-16,PE,exposed-expose,<20
 2022-01-16,PE,monitoring-surveillance,<20
 2022-01-16,QC,exposed-expose,1388
@@ -1387,8 +1387,8 @@ date,region,exposure_status-etat_verification,count-nombre
 2022-03-06,NS,monitoring-surveillance,<20
 2022-03-06,NU,exposed-expose,<20
 2022-03-06,NU,monitoring-surveillance,<20
-2022-03-06,ON,exposed-expose,2463
-2022-03-06,ON,monitoring-surveillance,732
+2022-03-06,ON,exposed-expose,2466
+2022-03-06,ON,monitoring-surveillance,735
 2022-03-06,PE,exposed-expose,<20
 2022-03-06,PE,monitoring-surveillance,<20
 2022-03-06,QC,exposed-expose,62
@@ -1527,8 +1527,8 @@ date,region,exposure_status-etat_verification,count-nombre
 2022-04-10,NS,monitoring-surveillance,<20
 2022-04-10,NU,exposed-expose,<20
 2022-04-10,NU,monitoring-surveillance,<20
-2022-04-10,ON,exposed-expose,5931
-2022-04-10,ON,monitoring-surveillance,1710
+2022-04-10,ON,exposed-expose,5933
+2022-04-10,ON,monitoring-surveillance,1711
 2022-04-10,PE,exposed-expose,<20
 2022-04-10,PE,monitoring-surveillance,<20
 2022-04-10,QC,exposed-expose,105
@@ -1583,12 +1583,12 @@ date,region,exposure_status-etat_verification,count-nombre
 2022-04-24,NS,monitoring-surveillance,<20
 2022-04-24,NU,exposed-expose,<20
 2022-04-24,NU,monitoring-surveillance,<20
-2022-04-24,ON,exposed-expose,4659
-2022-04-24,ON,monitoring-surveillance,1153
+2022-04-24,ON,exposed-expose,4660
+2022-04-24,ON,monitoring-surveillance,1155
 2022-04-24,PE,exposed-expose,<20
 2022-04-24,PE,monitoring-surveillance,<20
-2022-04-24,QC,exposed-expose,173
-2022-04-24,QC,monitoring-surveillance,33
+2022-04-24,QC,exposed-expose,175
+2022-04-24,QC,monitoring-surveillance,35
 2022-04-24,SK,exposed-expose,<20
 2022-04-24,SK,monitoring-surveillance,<20
 2022-04-24,YT,exposed-expose,<20
