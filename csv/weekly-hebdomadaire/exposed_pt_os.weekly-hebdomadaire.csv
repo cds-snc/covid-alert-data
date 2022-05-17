@@ -1779,8 +1779,8 @@ date,region,os-se,count-nombre
 2022-05-15,NS,ios,<20
 2022-05-15,NU,android,<20
 2022-05-15,NU,ios,<20
-2022-05-15,ON,android,763
-2022-05-15,ON,ios,1433
+2022-05-15,ON,android,813
+2022-05-15,ON,ios,1448
 2022-05-15,PE,android,<20
 2022-05-15,PE,ios,<20
 2022-05-15,QC,android,<20
@@ -1789,5 +1789,5 @@ date,region,os-se,count-nombre
 2022-05-15,SK,ios,<20
 2022-05-15,YT,android,<20
 2022-05-15,YT,ios,<20
-2022-05-15,npts-ptso,android,30
-2022-05-15,npts-ptso,ios,203
+2022-05-15,npts-ptso,android,34
+2022-05-15,npts-ptso,ios,210
