@@ -1807,8 +1807,8 @@ date,region,os-se,count-nombre
 2022-05-22,NS,ios,<20
 2022-05-22,NU,android,<20
 2022-05-22,NU,ios,<20
-2022-05-22,ON,android,530
-2022-05-22,ON,ios,1146
+2022-05-22,ON,android,560
+2022-05-22,ON,ios,1149
 2022-05-22,PE,android,<20
 2022-05-22,PE,ios,<20
 2022-05-22,QC,android,<20
@@ -1818,4 +1818,4 @@ date,region,os-se,count-nombre
 2022-05-22,YT,android,<20
 2022-05-22,YT,ios,<20
 2022-05-22,npts-ptso,android,38
-2022-05-22,npts-ptso,ios,138
+2022-05-22,npts-ptso,ios,139

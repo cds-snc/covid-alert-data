@@ -256,7 +256,7 @@ date,os-se,app_version-version_appli,count-nombre
 2021-09-30,android,1.4.5,67
 2021-09-30,android,1.4.6,286
 2021-09-30,android,1.5.2,64
-2021-09-30,android,1.5.3,51377
+2021-09-30,android,1.5.3,51379
 2021-09-30,ios,1.2.0,171
 2021-09-30,ios,1.2.1,71
 2021-09-30,ios,1.2.2,72
@@ -494,7 +494,7 @@ date,os-se,app_version-version_appli,count-nombre
 2022-04-30,android,1.4.5,<20
 2022-04-30,android,1.4.6,25
 2022-04-30,android,1.5.2,<20
-2022-04-30,android,1.5.3,18131
+2022-04-30,android,1.5.3,18132
 2022-04-30,ios,1.2.0,43
 2022-04-30,ios,1.2.1,<20
 2022-04-30,ios,1.2.2,<20
