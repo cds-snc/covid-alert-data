@@ -164,7 +164,7 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2021-09-05,enabled-active,blocked-bloque,401
 2021-09-05,enabled-active,granted-autorise,14537
 2021-09-05,enabled-active,denied-refuse,<20
-2021-09-05,disabled-desactive,blocked-bloque,574
+2021-09-05,disabled-desactive,blocked-bloque,575
 2021-09-05,disabled-desactive,granted-autorise,9027
 2021-09-05,disabled-desactive,denied-refuse,<20
 2021-09-12,enabled-active,blocked-bloque,534
@@ -225,7 +225,7 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2021-11-14,enabled-active,granted-autorise,10157
 2021-11-14,enabled-active,denied-refuse,<20
 2021-11-14,disabled-desactive,blocked-bloque,323
-2021-11-14,disabled-desactive,granted-autorise,4444
+2021-11-14,disabled-desactive,granted-autorise,4445
 2021-11-14,disabled-desactive,denied-refuse,<20
 2021-11-21,enabled-active,blocked-bloque,354
 2021-11-21,enabled-active,granted-autorise,10547
@@ -350,7 +350,7 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2022-04-10,enabled-active,blocked-bloque,184
 2022-04-10,enabled-active,granted-autorise,5597
 2022-04-10,enabled-active,denied-refuse,<20
-2022-04-10,disabled-desactive,blocked-bloque,192
+2022-04-10,disabled-desactive,blocked-bloque,193
 2022-04-10,disabled-desactive,granted-autorise,2668
 2022-04-10,disabled-desactive,denied-refuse,<20
 2022-04-17,enabled-active,blocked-bloque,193
@@ -360,7 +360,7 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2022-04-17,disabled-desactive,granted-autorise,2505
 2022-04-17,disabled-desactive,denied-refuse,<20
 2022-04-24,enabled-active,blocked-bloque,152
-2022-04-24,enabled-active,granted-autorise,4693
+2022-04-24,enabled-active,granted-autorise,4694
 2022-04-24,enabled-active,denied-refuse,<20
 2022-04-24,disabled-desactive,blocked-bloque,164
 2022-04-24,disabled-desactive,granted-autorise,2314
@@ -381,11 +381,11 @@ date,framework_status-etat_cadre,notification_permission-permission_notif,count-
 2022-05-15,enabled-active,granted-autorise,3368
 2022-05-15,enabled-active,denied-refuse,<20
 2022-05-15,disabled-desactive,blocked-bloque,125
-2022-05-15,disabled-desactive,granted-autorise,1697
+2022-05-15,disabled-desactive,granted-autorise,1698
 2022-05-15,disabled-desactive,denied-refuse,<20
 2022-05-22,enabled-active,blocked-bloque,115
-2022-05-22,enabled-active,granted-autorise,3192
+2022-05-22,enabled-active,granted-autorise,3197
 2022-05-22,enabled-active,denied-refuse,<20
 2022-05-22,disabled-desactive,blocked-bloque,142
-2022-05-22,disabled-desactive,granted-autorise,1578
+2022-05-22,disabled-desactive,granted-autorise,1581
 2022-05-22,disabled-desactive,denied-refuse,<20
