@@ -1611,8 +1611,8 @@ date,region,exposure_status-etat_verification,count-nombre
 2022-05-01,NS,monitoring-surveillance,<20
 2022-05-01,NU,exposed-expose,<20
 2022-05-01,NU,monitoring-surveillance,<20
-2022-05-01,ON,exposed-expose,3823
-2022-05-01,ON,monitoring-surveillance,946
+2022-05-01,ON,exposed-expose,3825
+2022-05-01,ON,monitoring-surveillance,948
 2022-05-01,PE,exposed-expose,<20
 2022-05-01,PE,monitoring-surveillance,<20
 2022-05-01,QC,exposed-expose,71
@@ -1639,7 +1639,7 @@ date,region,exposure_status-etat_verification,count-nombre
 2022-05-08,NS,monitoring-surveillance,<20
 2022-05-08,NU,exposed-expose,<20
 2022-05-08,NU,monitoring-surveillance,<20
-2022-05-08,ON,exposed-expose,2937
+2022-05-08,ON,exposed-expose,2938
 2022-05-08,ON,monitoring-surveillance,683
 2022-05-08,PE,exposed-expose,<20
 2022-05-08,PE,monitoring-surveillance,<20
