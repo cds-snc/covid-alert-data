@@ -1247,7 +1247,7 @@ date,region,os-se,count-nombre
 2022-01-02,NS,ios,149
 2022-01-02,NU,android,<20
 2022-01-02,NU,ios,<20
-2022-01-02,ON,android,21093
+2022-01-02,ON,android,21094
 2022-01-02,ON,ios,35100
 2022-01-02,PE,android,<20
 2022-01-02,PE,ios,31
@@ -1891,8 +1891,8 @@ date,region,os-se,count-nombre
 2022-06-12,NS,ios,<20
 2022-06-12,NU,android,<20
 2022-06-12,NU,ios,<20
-2022-06-12,ON,android,274
-2022-06-12,ON,ios,746
+2022-06-12,ON,android,280
+2022-06-12,ON,ios,747
 2022-06-12,PE,android,<20
 2022-06-12,PE,ios,<20
 2022-06-12,QC,android,<20
@@ -1902,4 +1902,4 @@ date,region,os-se,count-nombre
 2022-06-12,YT,android,<20
 2022-06-12,YT,ios,<20
 2022-06-12,npts-ptso,android,<20
-2022-06-12,npts-ptso,ios,148
+2022-06-12,npts-ptso,ios,149
