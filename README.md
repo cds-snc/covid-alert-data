@@ -1,5 +1,7 @@
 [La version française suit.](#données-dalerte-covid)
 
+**COVID Alert is now retired**: For more information, visit the Government of Canada COVID Alert home page. 
+
 # COVID Alert Data
 
 The COVID Alert Data repository contains aggregated metrics reported by the [COVID Alert](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/covid-alert.html) system. The repository is updated nightly with data, which was received the previous day.
@@ -352,6 +354,8 @@ Changes to reported metrics in this repository typically appear several days aft
 
 
 ---
+
+**Alerte COVID a été mis hors service**. Pour en savoir davantage, visitez la page d'accueil d’Alerte COVID du gouvernement du Canada. 
 
 # Données d’Alerte COVID
 
